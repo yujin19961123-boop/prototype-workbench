@@ -1,0 +1,13 @@
+.starter-workbench{min-height:100dvh;background:var(--background)}
+.starter-workbench-header{padding:var(--space-5) var(--space-6);background:var(--card);border-bottom:1px solid var(--border)}
+.starter-workbench-header h1{font-size:var(--type-title-2-size);line-height:var(--type-title-2-line);font-weight:var(--type-title-2-weight)}
+.starter-workbench-header nav{display:flex;flex-wrap:wrap;gap:var(--space-2);margin-top:var(--space-4)}
+.starter-workbench-content{padding:var(--space-6);max-width:1440px;margin-inline:auto}
+.starter-overview{display:grid;gap:var(--space-5)}
+.starter-overview h2{font-size:var(--type-section-title-size);line-height:var(--type-section-title-line);font-weight:var(--type-section-title-weight)}
+.starter-overview p,.starter-overview li{line-height:var(--type-body-line);color:var(--muted-foreground)}
+.starter-overview ul{list-style:disc;padding-left:var(--space-6)}
+.starter-overview section{padding:var(--space-5);border:1px solid var(--border);border-radius:var(--curve-md);background:var(--card)}
+.starter-overview section>*+*{margin-top:var(--space-3)}
+.starter-source{padding:var(--space-5);overflow:auto;max-height:70dvh;white-space:pre;font-size:var(--type-caption-size);line-height:var(--type-caption-line);background:var(--card);border:1px solid var(--border);border-radius:var(--curve-md)}
+.starter-recipe-preview{height:560px;min-width:0;overflow:auto;border:1px solid var(--border);border-radius:var(--curve-md);background:var(--card)}

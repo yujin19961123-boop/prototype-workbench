@@ -1,0 +1,38 @@
+.im-workspace{height:100%;min-height:0;min-width:0;display:grid;grid-template-columns:360px minmax(0,1fr);background:var(--card);font-family:var(--font-ui);overflow:hidden}
+.im-conversations{display:flex;flex-direction:column;min-width:0;min-height:0;border-right:1px solid var(--border);background:var(--card)}
+.im-conversation-heading{height:74px;flex-shrink:0;display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);padding:var(--space-5) var(--space-6)}
+.im-conversation-heading h1{font-size:var(--type-section-title-size);line-height:var(--type-section-title-line);font-weight:var(--type-section-title-weight)}
+.im-conversation-search{padding:0 var(--space-2)}
+.im-conversation-filters{display:flex;flex-shrink:0;gap:var(--space-2);padding:var(--space-4)}
+.im-conversation-list{flex:1;min-height:0;overflow:auto;padding:0 var(--space-2) var(--space-3);scrollbar-width:thin;scrollbar-color:var(--border) transparent}
+.im-conversation-row{display:flex;align-items:center;justify-content:flex-start;width:100%;height:66px;gap:var(--space-4);padding:var(--space-2);border-radius:var(--curve-lg);text-align:left;white-space:normal;font-weight:400}
+.im-conversation-row[aria-pressed="true"]{background:var(--muted)}
+.im-avatar{width:46px;height:46px;flex-shrink:0}
+.im-avatar[data-color="purple"]{--im-avatar-color:var(--avatar-purple)}
+.im-avatar[data-color="cyan"]{--im-avatar-color:var(--mail-avatar-cyan)}
+.im-avatar[data-color="gold"]{--im-avatar-color:var(--mail-avatar-gold)}
+.im-avatar[data-color="green"]{--im-avatar-color:var(--avatar-green)}
+.im-avatar [data-slot="avatar-fallback"]{background:var(--im-avatar-color);color:var(--card);font-size:var(--type-editor-size)}
+.im-conversation-copy{flex:1;min-width:0;display:flex;flex-direction:column;gap:var(--space-2)}
+.im-conversation-name{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--type-body-size);line-height:var(--type-body-line);color:var(--foreground)}
+.im-conversation-preview{display:block;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;font-size:var(--type-caption-size);line-height:var(--type-caption-line);color:var(--muted-foreground)}
+.im-conversation-meta{display:flex;align-items:flex-end;flex-direction:column;align-self:stretch;gap:var(--space-2);min-width:36px;padding-top:var(--space-1)}
+.im-conversation-meta time{font-size:var(--type-metadata-size);line-height:var(--type-metadata-line);color:var(--muted-foreground);white-space:nowrap}
+.im-unread-dot{width:8px;height:8px;border-radius:50%;background:var(--primary)}
+.im-mention-mark{font-size:var(--type-caption-size);line-height:var(--type-caption-line);color:var(--action-outline-text)}
+.im-thread{display:flex;flex-direction:column;min-width:0;min-height:0;background:var(--chat-surface)}
+.im-thread-header{height:74px;flex-shrink:0;display:flex;align-items:center;gap:var(--space-4);padding:var(--space-3) var(--space-5);border-bottom:1px solid var(--border);background:var(--card)}
+.im-thread-header h2{font-size:var(--type-body-size);line-height:var(--type-body-line);font-weight:500;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.im-thread-identity{flex:1;min-width:0}
+.im-thread-identity p{margin-top:var(--space-1);font-size:var(--type-caption-size);line-height:var(--type-caption-line);color:var(--muted-foreground)}
+.im-timeline{flex:1;min-height:0;min-width:0;overflow:hidden}
+.im-message-list{gap:var(--space-4);padding:var(--space-5)}
+.im-message-avatar{align-self:flex-start}
+.im-message-bubble{max-width:85%}
+.im-message-sender{display:block;font-size:var(--type-caption-size);line-height:var(--type-caption-line);color:var(--muted-foreground);margin-bottom:var(--space-1)}
+.im-message-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:var(--type-body-size);line-height:var(--type-body-line)}
+.im-message-time{display:block;text-align:right;margin-top:var(--space-1);font-size:var(--type-metadata-size);line-height:var(--type-metadata-line);color:var(--muted-foreground)}
+.im-composer-wrap{padding:var(--space-3) var(--space-5) var(--space-5);flex-shrink:0}
+.im-composer{display:flex;align-items:center;gap:var(--space-2);padding:var(--space-2);border:1px solid var(--border);border-radius:var(--curve-lg);background:var(--card)}
+.im-composer input{flex:1;min-width:0}
+.im-empty{padding:var(--space-6);color:var(--muted-foreground);font-size:var(--type-body-size);line-height:var(--type-body-line);text-align:center}

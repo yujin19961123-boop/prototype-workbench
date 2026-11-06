@@ -1,0 +1,184 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+@import "./tokens.css";
+@font-face {
+  font-family: Poppins;
+  src: url("/mail/poppins-400.ttf") format("truetype");
+  font-weight: 400;
+  font-display: swap;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("/mail/poppins-500.ttf") format("truetype");
+  font-weight: 500;
+  font-display: swap;
+}
+@font-face {
+  font-family: Poppins;
+  src: url("/mail/poppins-600.ttf") format("truetype");
+  font-weight: 600;
+  font-display: swap;
+}
+
+@custom-variant dark (&:is(.dark *));
+/* Product line tabs override the registry's full-width underline. */
+.product-tabs [data-slot="tabs-list"] [data-slot="tabs-trigger"]::after {
+  left: 50%;
+  right: auto;
+  bottom: 0;
+  width: 24px;
+  height: 4px;
+  transform: translateX(-50%);
+  border-radius: 999px;
+  background: var(--brand-green);
+}
+.reference-slider [data-slot="slider-thumb"] {
+  position: relative;
+  z-index: 1;
+}
+@theme inline {
+  --text-section-title: var(--type-section-title-size);
+  --text-section-title--line-height: var(--type-section-title-line);
+  --text-editor: var(--type-editor-size);
+  --text-editor--line-height: var(--type-editor-line);
+  --text-metadata: var(--type-metadata-size);
+  --text-metadata--line-height: var(--type-metadata-line);
+  --text-micro: var(--type-micro-size);
+  --text-micro--line-height: var(--type-micro-line);
+  --text-mail-time: var(--type-mail-time-size);
+  --text-mail-time--line-height: var(--type-mail-time-line);
+  --spacing: var(--space-unit);
+  --font-sans: var(--font-ui);
+  --font-heading: var(--font-ui);
+  --text-title-1: var(--type-title-1-size);
+  --text-title-1--line-height: var(--type-title-1-line);
+  --text-title-1--font-weight: var(--type-title-1-weight);
+  --text-title-2: var(--type-title-2-size);
+  --text-title-2--line-height: var(--type-title-2-line);
+  --text-title-2--font-weight: var(--type-title-2-weight);
+  --text-body: var(--type-body-size);
+  --text-body--line-height: var(--type-body-line);
+  --text-caption: var(--type-caption-size);
+  --text-caption--line-height: var(--type-caption-line);
+  --text-sm: var(--type-body-size);
+  --text-sm--line-height: var(--type-body-line);
+  --text-xs: var(--type-caption-size);
+  --text-xs--line-height: var(--type-caption-line);
+  --shadow-sm: var(--shadow-subtle);
+  --shadow-lg: var(--shadow-float);
+  --shadow-xl: var(--shadow-float);
+  --default-transition-duration: var(--motion-fast);
+  --color-mail-row-highlight: var(--mail-row-highlight);
+  --color-mail-row-muted: var(--mail-row-muted);
+  --color-schedule-background: var(--schedule-background);
+  --color-status-attention-bg: var(--status-attention-bg);
+  --color-status-attention-text: var(--status-attention-text);
+  --color-status-success-bg: var(--status-success-bg);
+  --color-status-success-text: var(--status-success-text);
+  --color-status-neutral-bg: var(--status-neutral-bg);
+  --color-status-neutral-text: var(--status-neutral-text);
+  --color-status-info-bg: var(--status-info-bg);
+  --color-status-info-text: var(--status-info-text);
+  --color-dependency-accent: var(--dependency-accent);
+  --color-notice-background: var(--notice-background);
+  --color-notice-foreground: var(--notice-foreground);
+  --color-slider-attention: var(--slider-attention);
+  --color-slider-track: var(--slider-track);
+  --color-recipient-background: var(--recipient-background);
+  --color-feedback-background: var(--feedback-background);
+  --color-feedback-foreground: var(--feedback-foreground);
+  --color-field-border: var(--field-border);
+  --color-field-muted: var(--field-muted);
+  --color-upload-background: var(--upload-background);
+  --color-brand-green: var(--brand-green);
+  --color-action-outline-text: var(--action-outline-text);
+  --color-folder-selected: var(--folder-selected);
+  --color-mail-selected: var(--mail-selected);
+  --color-status-dot: var(--status-dot);
+  --color-switch-track: var(--switch-track);
+  --color-selection: var(--selection);
+  --color-selection-border: var(--selection-border);
+  --color-selection-foreground: var(--selection-foreground);
+  --color-list-selected: var(--list-selected);
+  --color-notification: var(--notification);
+  --color-notification-foreground: var(--notification-foreground);
+  --color-tag: var(--tag);
+  --color-tag-foreground: var(--tag-foreground);
+  --color-avatar-blue: var(--avatar-blue);
+  --color-avatar-green: var(--avatar-green);
+  --color-avatar-purple: var(--avatar-purple);
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--secondary);
+  --color-accent-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--foreground);
+  --color-popover: var(--card);
+  --color-popover-foreground: var(--foreground);
+  --color-border: var(--border);
+  --color-input: var(--field-border);
+  --color-ring: var(--focus-ring);
+  --color-destructive: var(--destructive);
+  --radius-sm: var(--curve-sm);
+  --radius-md: var(--curve-md);
+  --radius-lg: var(--curve-lg);
+  --radius-xl: var(--curve-xl);
+  --radius-2xl: var(--curve-2xl);
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+}
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+    margin: 0;
+    font-family: var(--font-ui);
+    font-size: var(--type-body-size);
+    line-height: var(--type-body-line);
+    font-weight: var(--type-body-weight);
+  }
+  button,
+  input,
+  textarea,
+  select {
+    font: inherit;
+  }
+  button {
+    cursor: pointer;
+  }
+  button:disabled {
+    cursor: not-allowed;
+  }
+}
+@media (prefers-reduced-motion: reduce) {
+  :root {
+    --motion-fast: 0ms;
+    --motion-normal: 0ms;
+  }
+}
+
+/* Sidebar and popover colors are generated from design-system/tokens.json. */
+
+/* Product controls inherit keyboard focus and disabled states, including native buttons. */
+[data-prototype-app] :where(button, a, input, textarea, select, [tabindex]):focus-visible {
+  outline: var(--focus-width) solid var(--focus-ring);
+  outline-offset: 2px;
+}
+[data-prototype-app] :where(button):disabled {
+  opacity: var(--disabled-opacity);
+}

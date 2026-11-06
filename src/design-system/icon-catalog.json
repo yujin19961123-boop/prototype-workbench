@@ -1,0 +1,4320 @@
+[
+  {
+    "path": "01-app-bar/mail-archive-filled-active-20.svg",
+    "name": "archive",
+    "usage": "归档邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3186",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-archive-filled-active-20-02.svg",
+    "name": "archive",
+    "usage": "归档邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3686",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-archive-outline-20.svg",
+    "name": "archive",
+    "usage": "归档邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3051",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-block-dropdown-outline-10x6.svg",
+    "name": "block-dropdown",
+    "usage": "Block",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3176",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-block-dropdown-outline-10x6-02.svg",
+    "name": "block-dropdown",
+    "usage": "Block",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3039",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-block-sender-filled-active-20.svg",
+    "name": "block-sender",
+    "usage": "阻止发件人",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3168",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-block-sender-filled-active-20-02.svg",
+    "name": "block-sender",
+    "usage": "阻止发件人",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3678",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-block-sender-outline-20.svg",
+    "name": "block-sender",
+    "usage": "阻止发件人",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3029",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-category-filled-active-20.svg",
+    "name": "category",
+    "usage": "分类标签",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3764",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-change-color-filled-active-20.svg",
+    "name": "change-color",
+    "usage": "更改颜色",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3722",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-clean-up-filled-active-20.svg",
+    "name": "clean-up",
+    "usage": "清理对话",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3209",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-clean-up-filled-active-20-02.svg",
+    "name": "clean-up",
+    "usage": "清理对话",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3713",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-clean-up-outline-20.svg",
+    "name": "clean-up",
+    "usage": "清理对话",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3076",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-delete-filled-active-20.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3178",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-delete-filled-active-20-02.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3682",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-delete-outline-20.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3041",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-delete-outline-20-02.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3567",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-empty-folder-filled-active-20.svg",
+    "name": "empty-folder",
+    "usage": "清空文件夹",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3739",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-favorite-filled-active-20.svg",
+    "name": "favorite",
+    "usage": "收藏文件夹",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3747",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-flag-filled-active-20.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3253",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-flag-filled-active-20-02.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3770",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-flag-outline-20.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3123",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-flag-outline-20-02.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3577",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-forward-outline-active-20.svg",
+    "name": "forward",
+    "usage": "转发",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3563",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-ignore-filled-active-20.svg",
+    "name": "ignore",
+    "usage": "忽略对话",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3157",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-ignore-filled-active-20-02.svg",
+    "name": "ignore",
+    "usage": "忽略对话",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3669",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-ignore-outline-20.svg",
+    "name": "ignore",
+    "usage": "忽略对话",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3018",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-language-outline-20.svg",
+    "name": "language",
+    "usage": "language",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3485-3871",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-mark-all-read-filled-active-20.svg",
+    "name": "mark-all-read",
+    "usage": "全部标记已读",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3743",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-mark-dropdown-outline-10x6.svg",
+    "name": "mark-dropdown",
+    "usage": "Mark",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3259",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-mark-dropdown-outline-10x6-02.svg",
+    "name": "mark-dropdown",
+    "usage": "Mark",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3129",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-mark-read-filled-active-20.svg",
+    "name": "mark-read",
+    "usage": "标记已读",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3756",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-mark-unread-filled-active-20.svg",
+    "name": "mark-unread",
+    "usage": "标记未读",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3760",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-filled-active-20.svg",
+    "name": "move",
+    "usage": "移动邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3214",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-filled-active-20-02.svg",
+    "name": "move",
+    "usage": "移动邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3789",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-outline-20.svg",
+    "name": "move",
+    "usage": "移动邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3081",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-down-outline-active-20.svg",
+    "name": "move-down",
+    "usage": "下移",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3809",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-dropdown-outline-10x6.svg",
+    "name": "move-dropdown",
+    "usage": "Move",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3221",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-dropdown-outline-10x6-02.svg",
+    "name": "move-dropdown",
+    "usage": "Move",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3088",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-to-inbox-filled-active-20.svg",
+    "name": "move-to-inbox",
+    "usage": "move to inbox",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3728",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-move-up-outline-active-20.svg",
+    "name": "move-up",
+    "usage": "上移",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3813",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-new-subfolder-filled-active-20.svg",
+    "name": "new-subfolder",
+    "usage": "新建子文件夹",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3716",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-open-new-tab-filled-active-20.svg",
+    "name": "open-new-tab",
+    "usage": "在新标签页打开",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3696",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-print-filled-active-20.svg",
+    "name": "print",
+    "usage": "打印",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3270",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-print-filled-active-20-02.svg",
+    "name": "print",
+    "usage": "打印",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3783",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-print-outline-20.svg",
+    "name": "print",
+    "usage": "打印",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3141",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-read-filled-active-20.svg",
+    "name": "read",
+    "usage": "标记已读",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3232",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-read-outline-20.svg",
+    "name": "read",
+    "usage": "标记已读",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3099",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-rename-outline-active-20.svg",
+    "name": "rename",
+    "usage": "重命名",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3798",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-outline-active-20.svg",
+    "name": "reply",
+    "usage": "回复",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3555",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-all-outline-active-20.svg",
+    "name": "reply-all",
+    "usage": "全部回复",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3204",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-all-outline-active-20-02.svg",
+    "name": "reply-all",
+    "usage": "全部回复",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3559",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-all-outline-active-20-03.svg",
+    "name": "reply-all",
+    "usage": "全部回复",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3807",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-all-outline-20.svg",
+    "name": "reply-all",
+    "usage": "全部回复",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3071",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-all-dropdown-outline-10x6.svg",
+    "name": "reply-all-dropdown",
+    "usage": "Reply All",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3207",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-all-dropdown-outline-10x6-02.svg",
+    "name": "reply-all-dropdown",
+    "usage": "Reply All",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3074",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-message-outline-20.svg",
+    "name": "reply-message",
+    "usage": "reply message",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3485-3844",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-reply-message-confirm-outline-20.svg",
+    "name": "reply-message-confirm",
+    "usage": "reply message confirm",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3485-3853",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-report-filled-active-20.svg",
+    "name": "report",
+    "usage": "举报邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3193",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-report-filled-active-20-02.svg",
+    "name": "report",
+    "usage": "举报邮件",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3690",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-report-outline-20.svg",
+    "name": "report",
+    "usage": "举报邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3060",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-report-dropdown-outline-10x6.svg",
+    "name": "report-dropdown",
+    "usage": "Report",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3202",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-report-dropdown-outline-10x6-02.svg",
+    "name": "report-dropdown",
+    "usage": "Report",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3069",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-rules-filled-active-20.svg",
+    "name": "rules",
+    "usage": "规则管理",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3223",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-rules-filled-active-20-02.svg",
+    "name": "rules",
+    "usage": "规则管理",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3750",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-rules-outline-20.svg",
+    "name": "rules",
+    "usage": "规则管理",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3090",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-rules-dropdown-outline-10x6.svg",
+    "name": "rules-dropdown",
+    "usage": "Rules",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3230",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-rules-dropdown-outline-10x6-02.svg",
+    "name": "rules-dropdown",
+    "usage": "Rules",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3097",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-select-folder-filled-active-20.svg",
+    "name": "select-folder",
+    "usage": "选择文件夹",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3733",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-snooze-filled-active-20.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3261",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-snooze-filled-active-20-02.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3775",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-snooze-outline-20.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3131",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-snooze-dropdown-outline-10x6.svg",
+    "name": "snooze-dropdown",
+    "usage": "Snooze",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3268",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-snooze-dropdown-outline-10x6-02.svg",
+    "name": "snooze-dropdown",
+    "usage": "Snooze",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3139",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-sync-outline-20.svg",
+    "name": "sync",
+    "usage": "同步邮件",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3584",
+    "colors": [
+      "#2F2F2F"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-tag-filled-active-20.svg",
+    "name": "tag",
+    "usage": "分类标签",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3244",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-tag-outline-20.svg",
+    "name": "tag",
+    "usage": "分类标签",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3113",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-tag-dropdown-outline-10x6.svg",
+    "name": "tag-dropdown",
+    "usage": "Tag",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3251",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-tag-dropdown-outline-10x6-02.svg",
+    "name": "tag-dropdown",
+    "usage": "Tag",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3121",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-undo-outline-active-20.svg",
+    "name": "undo",
+    "usage": "撤销",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3278",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-undo-outline-active-20-02.svg",
+    "name": "undo",
+    "usage": "撤销",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3805",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-undo-outline-20.svg",
+    "name": "undo",
+    "usage": "撤销",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3152",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-unfavorite-filled-active-20.svg",
+    "name": "unfavorite",
+    "usage": "取消收藏",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3795",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-unread-filled-active-20.svg",
+    "name": "unread",
+    "usage": "标记未读",
+    "category": "01-app-bar",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3238",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "01-app-bar/mail-unread-outline-20.svg",
+    "name": "unread",
+    "usage": "标记未读",
+    "category": "01-app-bar",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3106",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-change-color-filled-active-20-02.svg",
+    "name": "change-color",
+    "usage": "更改颜色",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3607",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-delete-filled-active-20-03.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4299",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-delete-filled-20.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4386",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-delete-outline-20-03.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4210",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-empty-filled-active-20.svg",
+    "name": "empty",
+    "usage": "清空文件夹",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3630",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-favorite-filled-active-20-02.svg",
+    "name": "favorite",
+    "usage": "收藏文件夹",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3642",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-file-remove-filled-active-20.svg",
+    "name": "file-remove",
+    "usage": "file remove",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4281",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-file-remove-filled-20.svg",
+    "name": "file-remove",
+    "usage": "file remove",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4369",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-file-remove-outline-20.svg",
+    "name": "file-remove",
+    "usage": "file remove",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4191",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-flag-filled-active-20-03.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4276",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-flag-filled-20.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4364",
+    "colors": [
+      "#8CC442"
+    ]
+  },
+  {
+    "path": "02-folders/mail-flag-outline-20-03.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4185",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-filled-20.svg",
+    "name": "folder",
+    "usage": "folder",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4409",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-outline-20.svg",
+    "name": "folder",
+    "usage": "folder",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4233",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-outline-20-02.svg",
+    "name": "folder",
+    "usage": "folder",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4326",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-archive-filled-active-20.svg",
+    "name": "folder-archive",
+    "usage": "folder archive",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4269",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-archive-filled-20.svg",
+    "name": "folder-archive",
+    "usage": "folder archive",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4359",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-archive-outline-20.svg",
+    "name": "folder-archive",
+    "usage": "folder archive",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4177",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-download-filled-active-20.svg",
+    "name": "folder-download",
+    "usage": "folder download",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4289",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-download-filled-active-20-02.svg",
+    "name": "folder-download",
+    "usage": "folder download",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4317",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-download-filled-20.svg",
+    "name": "folder-download",
+    "usage": "folder download",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4375",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-download-filled-20-02.svg",
+    "name": "folder-download",
+    "usage": "folder download",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4404",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-download-outline-20.svg",
+    "name": "folder-download",
+    "usage": "folder download",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4200",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-download-outline-20-02.svg",
+    "name": "folder-download",
+    "usage": "folder download",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4224",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-minus-filled-20.svg",
+    "name": "folder-minus",
+    "usage": "folder minus",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4416",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-minus-outline-20.svg",
+    "name": "folder-minus",
+    "usage": "folder minus",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4242",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-minus-outline-20-02.svg",
+    "name": "folder-minus",
+    "usage": "folder minus",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4334",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-open-filled-active-20.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4309",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-open-filled-20.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4395",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-open-filled-20-02.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4424",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-open-outline-20.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4215",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-open-outline-20-02.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4250",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-open-outline-20-03.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4341",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-upload-filled-active-20.svg",
+    "name": "folder-upload",
+    "usage": "folder upload",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4255",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-upload-filled-20.svg",
+    "name": "folder-upload",
+    "usage": "folder upload",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4345",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-folder-upload-outline-20.svg",
+    "name": "folder-upload",
+    "usage": "folder upload",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4163",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-mark-all-as-read-filled-active-20.svg",
+    "name": "mark-all-as-read",
+    "usage": "全部标记已读",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3636",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-move-down-outline-active-20-02.svg",
+    "name": "move-down",
+    "usage": "下移",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3658",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-move-to-another-inbox-filled-active-20.svg",
+    "name": "move-to-another-inbox",
+    "usage": "移到其他邮箱",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3615",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-move-up-outline-active-20-02.svg",
+    "name": "move-up",
+    "usage": "上移",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3652",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-new-subfolder-filled-active-20-02.svg",
+    "name": "new-subfolder",
+    "usage": "新建子文件夹",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3592",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-open-in-new-tab-outline-active-20.svg",
+    "name": "open-in-new-tab",
+    "usage": "在新标签页打开",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3664",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-rename-outline-active-20-02.svg",
+    "name": "rename",
+    "usage": "重命名",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3600",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-select-other-folder-filled-active-20.svg",
+    "name": "select-other-folder",
+    "usage": "选择其他文件夹",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3622",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "02-folders/mail-send-filled-active-20.svg",
+    "name": "send",
+    "usage": "发送邮件",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4265",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-send-filled-20.svg",
+    "name": "send",
+    "usage": "发送邮件",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4355",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-send-outline-20.svg",
+    "name": "send",
+    "usage": "发送邮件",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4173",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-snooze-filled-20.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4442",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-snooze-outline-20-02.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4429",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-snooze-outline-20-03.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "02-folders",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4445",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "02-folders/mail-unfavorite-filled-active-20-02.svg",
+    "name": "unfavorite",
+    "usage": "取消收藏",
+    "category": "02-folders",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3647",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-accessibility-check-outline-20.svg",
+    "name": "accessibility-check",
+    "usage": "accessibility check",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3912",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-account-filled-20.svg",
+    "name": "account",
+    "usage": "邮箱账户",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4128",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-account-outline-20.svg",
+    "name": "account",
+    "usage": "邮箱账户",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4064",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-account-verified-outline-20.svg",
+    "name": "account-verified",
+    "usage": "account verified",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3983",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-add-account-outline-20.svg",
+    "name": "add-account",
+    "usage": "添加账号",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3904",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-archive-outline-20-02.svg",
+    "name": "archive",
+    "usage": "归档邮件",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3316",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-auto-format-outline-20.svg",
+    "name": "auto-format",
+    "usage": "auto format",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3964",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-block-dropdown-outline-10x6-03.svg",
+    "name": "block-dropdown",
+    "usage": "Block",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3304",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-block-sender-outline-20-02.svg",
+    "name": "block-sender",
+    "usage": "阻止发件人",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3294",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-clean-up-outline-20-02.svg",
+    "name": "clean-up",
+    "usage": "清理对话",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3352",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-compose-outline-20.svg",
+    "name": "compose",
+    "usage": "撰写邮件",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3905",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-contacts-filled-20.svg",
+    "name": "contacts",
+    "usage": "通讯录",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4113",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-contacts-outline-20.svg",
+    "name": "contacts",
+    "usage": "通讯录",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3485-3876",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-conversation-stack-outline-20.svg",
+    "name": "conversation-stack",
+    "usage": "会话堆叠视图",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3826",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-delegate-outline-20.svg",
+    "name": "delegate",
+    "usage": "delegate",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3920",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-delete-outline-20-04.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3306",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-download-outline-20.svg",
+    "name": "download",
+    "usage": "下载",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3946",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-download-outline-20-02.svg",
+    "name": "download",
+    "usage": "下载",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3950",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-flag-outline-20-04.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3397",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-folder-filled-20-02.svg",
+    "name": "folder",
+    "usage": "folder",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4148",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-folder-outline-20-03.svg",
+    "name": "folder",
+    "usage": "folder",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4084",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-folder-code-filled-20.svg",
+    "name": "folder-code",
+    "usage": "folder code",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4105",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-folder-code-outline-20.svg",
+    "name": "folder-code",
+    "usage": "folder code",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4043",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-folder-open-filled-20-03.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4160",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-folder-open-outline-20-04.svg",
+    "name": "folder-open",
+    "usage": "folder open",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4097",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-font-outline-20.svg",
+    "name": "font",
+    "usage": "font",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3968",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-forward-outline-20.svg",
+    "name": "forward",
+    "usage": "转发",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3347",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-ignore-outline-20-02.svg",
+    "name": "ignore",
+    "usage": "忽略对话",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3283",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-important-outline-20.svg",
+    "name": "important",
+    "usage": "标记重要",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3940",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-layout-split-outline-20.svg",
+    "name": "layout-split",
+    "usage": "layout split",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3819",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-mark-dropdown-outline-10x6-03.svg",
+    "name": "mark-dropdown",
+    "usage": "Mark",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3395",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-message-preview-outline-20.svg",
+    "name": "message-preview",
+    "usage": "邮件摘要预览",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3832",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-move-outline-20-02.svg",
+    "name": "move",
+    "usage": "移动邮件",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3357",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-move-dropdown-outline-10x6-03.svg",
+    "name": "move-dropdown",
+    "usage": "Move",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3364",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-new-subfolder-filled-20.svg",
+    "name": "new-subfolder",
+    "usage": "新建子文件夹",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4154",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-new-subfolder-outline-20.svg",
+    "name": "new-subfolder",
+    "usage": "新建子文件夹",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4090",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-print-outline-20-02.svg",
+    "name": "print",
+    "usage": "打印",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3414",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-print-outline-20-03.svg",
+    "name": "print",
+    "usage": "打印",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3955",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-read-filled-20.svg",
+    "name": "read",
+    "usage": "标记已读",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4101",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-read-outline-20-02.svg",
+    "name": "read",
+    "usage": "标记已读",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4038",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-read-unread-outline-20.svg",
+    "name": "read-unread",
+    "usage": "Read / Unread",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3378",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-receive-mail-filled-20.svg",
+    "name": "receive-mail",
+    "usage": "receive mail",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4132",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-receive-mail-outline-20.svg",
+    "name": "receive-mail",
+    "usage": "receive mail",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4068",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-reply-outline-20.svg",
+    "name": "reply",
+    "usage": "回复",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3338",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-reply-all-outline-20-02.svg",
+    "name": "reply-all",
+    "usage": "全部回复",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3342",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-reply-all-dropdown-outline-10x6-03.svg",
+    "name": "reply-all-dropdown",
+    "usage": "Reply All",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3345",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-report-outline-20-02.svg",
+    "name": "report",
+    "usage": "举报邮件",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3326",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-report-dropdown-outline-10x6-03.svg",
+    "name": "report-dropdown",
+    "usage": "Report",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3335",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-rules-outline-20-02.svg",
+    "name": "rules",
+    "usage": "规则管理",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3367",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-rules-dropdown-outline-10x6-03.svg",
+    "name": "rules-dropdown",
+    "usage": "Rules",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3375",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-save-draft-outline-20.svg",
+    "name": "save-draft",
+    "usage": "保存草稿",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3935",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-schedule-send-outline-20.svg",
+    "name": "schedule-send",
+    "usage": "计划发送",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3916",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-send-mail-filled-20.svg",
+    "name": "send-mail",
+    "usage": "send mail",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4140",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-send-mail-outline-20.svg",
+    "name": "send-mail",
+    "usage": "send mail",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4076",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-settings-filled-20.svg",
+    "name": "settings",
+    "usage": "设置",
+    "category": "03-home-view",
+    "style": "filled",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4110",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-settings-outline-20.svg",
+    "name": "settings",
+    "usage": "设置",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4050",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-snooze-outline-20-04.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3403",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-snooze-dropdown-outline-10x6-03.svg",
+    "name": "snooze-dropdown",
+    "usage": "Snooze",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3411",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-sort-outline-20.svg",
+    "name": "sort",
+    "usage": "sort",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3892",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-sync-outline-20-02.svg",
+    "name": "sync",
+    "usage": "同步邮件",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3865",
+    "colors": [
+      "#2F2F2F"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-tag-outline-20-02.svg",
+    "name": "tag",
+    "usage": "分类标签",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3385",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-tag-dropdown-outline-10x6-03.svg",
+    "name": "tag-dropdown",
+    "usage": "Tag",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3393",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-text-format-outline-20.svg",
+    "name": "text-format",
+    "usage": "text format",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3974",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-undo-outline-20-02.svg",
+    "name": "undo",
+    "usage": "撤销",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3426",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-view-collapse-details-outline-20.svg",
+    "name": "view-collapse-details",
+    "usage": "收起视图详情",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3842",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-view-confirm-outline-20.svg",
+    "name": "view-confirm",
+    "usage": "view confirm",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3882",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-view-expand-details-outline-20.svg",
+    "name": "view-expand-details",
+    "usage": "展开视图详情",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3850",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-view-left-pane-outline-20.svg",
+    "name": "view-left-pane",
+    "usage": "view left pane",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3872",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-view-right-pane-outline-20.svg",
+    "name": "view-right-pane",
+    "usage": "view right pane",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3877",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-view-top-pane-outline-20.svg",
+    "name": "view-top-pane",
+    "usage": "view top pane",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3867",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "03-home-view/mail-zoom-in-outline-20.svg",
+    "name": "zoom-in",
+    "usage": "zoom in",
+    "category": "03-home-view",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3858",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-archive-outline-20-03.svg",
+    "name": "archive",
+    "usage": "归档邮件",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3443",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-clean-up-outline-20-03.svg",
+    "name": "clean-up",
+    "usage": "清理对话",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3489",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-delete-outline-20-05.svg",
+    "name": "delete",
+    "usage": "删除邮件",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3432",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-delete-dropdown-outline-10x6.svg",
+    "name": "delete-dropdown",
+    "usage": "Delete",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3441",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-flag-outline-20-05.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3513",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-mark-dropdown-outline-10x6-04.svg",
+    "name": "mark-dropdown",
+    "usage": "Mark",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3519",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-more-outline-24.svg",
+    "name": "more",
+    "usage": "更多操作",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3548",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-move-outline-20-03.svg",
+    "name": "move",
+    "usage": "移动邮件",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3465",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-move-dropdown-outline-10x6-04.svg",
+    "name": "move-dropdown",
+    "usage": "Move",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3472",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-print-outline-20-04.svg",
+    "name": "print",
+    "usage": "打印",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3532",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-read-unread-outline-20-02.svg",
+    "name": "read-unread",
+    "usage": "Read / Unread",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3495",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-reply-all-outline-20-03.svg",
+    "name": "reply-all",
+    "usage": "全部回复",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3484",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-reply-all-dropdown-outline-10x6-04.svg",
+    "name": "reply-all-dropdown",
+    "usage": "Reply All",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3487",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-report-outline-20-03.svg",
+    "name": "report",
+    "usage": "举报邮件",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3453",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-report-dropdown-outline-10x6-04.svg",
+    "name": "report-dropdown",
+    "usage": "Report",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3462",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-rules-outline-20-03.svg",
+    "name": "rules",
+    "usage": "规则管理",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3474",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-rules-dropdown-outline-10x6-04.svg",
+    "name": "rules-dropdown",
+    "usage": "Rules",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3481",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-snooze-outline-20-05.svg",
+    "name": "snooze",
+    "usage": "稍后提醒",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3521",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-snooze-dropdown-outline-10x6-04.svg",
+    "name": "snooze-dropdown",
+    "usage": "Snooze",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3529",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-tag-outline-20-03.svg",
+    "name": "tag",
+    "usage": "分类标签",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3502",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-tag-dropdown-outline-10x6-04.svg",
+    "name": "tag-dropdown",
+    "usage": "Tag",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 10,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3511",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "04-context-menu/mail-undo-outline-20-03.svg",
+    "name": "undo",
+    "usage": "撤销",
+    "category": "04-context-menu",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3544",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-checkbox-outline-20.svg",
+    "name": "checkbox",
+    "usage": "复选框",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3708",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-checkbox-multiple-outline-20.svg",
+    "name": "checkbox-multiple",
+    "usage": "多选状态",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3704",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-checkbox-selected-filled-active-20.svg",
+    "name": "checkbox-selected",
+    "usage": "已选状态",
+    "category": "05-selection-state",
+    "style": "filled",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3700",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-download-filled-active-24.svg",
+    "name": "download",
+    "usage": "下载",
+    "category": "05-selection-state",
+    "style": "filled",
+    "state": "active",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4023",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-flag-outline-20-06.svg",
+    "name": "flag",
+    "usage": "标记邮件",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3998",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-flag-off-outline-20.svg",
+    "name": "flag-off",
+    "usage": "flag off",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3992",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-important-filled-active-24.svg",
+    "name": "important",
+    "usage": "important",
+    "category": "05-selection-state",
+    "style": "filled",
+    "state": "active",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4017",
+    "colors": [
+      "#D13438"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-location-outline-20.svg",
+    "name": "location",
+    "usage": "location",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3988",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-move-to-inbox-outline-20.svg",
+    "name": "move-to-inbox",
+    "usage": "move to inbox",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4004",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-notifications-filled-active-24.svg",
+    "name": "notifications",
+    "usage": "notifications",
+    "category": "05-selection-state",
+    "style": "filled",
+    "state": "active",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4014",
+    "colors": [
+      "#D13438"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-remove-account-outline-20.svg",
+    "name": "remove-account",
+    "usage": "移除账号",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4003",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-save-draft-outline-active-20.svg",
+    "name": "save-draft",
+    "usage": "保存草稿",
+    "category": "05-selection-state",
+    "style": "outline",
+    "state": "active",
+    "width": 20,
+    "height": 20,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-3984",
+    "colors": [
+      "#218CCC"
+    ]
+  },
+  {
+    "path": "05-selection-state/mail-status-online-filled-active-24.svg",
+    "name": "status-online",
+    "usage": "status online",
+    "category": "05-selection-state",
+    "style": "filled",
+    "state": "active",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=2991-4020",
+    "colors": [
+      "#479A47"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-add-outline-14.svg",
+    "name": "add",
+    "usage": "add",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 14,
+    "height": 14,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7303",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-align-center-2-outline-24.svg",
+    "name": "align-center-2",
+    "usage": "align center 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7161",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-align-left-2-outline-24.svg",
+    "name": "align-left-2",
+    "usage": "align left 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7166",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-align-right-2-outline-24.svg",
+    "name": "align-right-2",
+    "usage": "align right 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7171",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-bg-color-2-outline-24.svg",
+    "name": "bg-color-2",
+    "usage": "bg color 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7176",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-bold-filled-24.svg",
+    "name": "bold",
+    "usage": "bold",
+    "category": "06-editor-tools",
+    "style": "filled",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7333",
+    "colors": []
+  },
+  {
+    "path": "06-editor-tools/mail-bold-2-outline-24.svg",
+    "name": "bold-2",
+    "usage": "bold 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7181",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-caret-down-outline-8x6.svg",
+    "name": "caret-down",
+    "usage": "caret down",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 8,
+    "height": 6,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7359",
+    "colors": [
+      "#666666"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-clear-format-outline-20.svg",
+    "name": "clear-format",
+    "usage": "clear format",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7291",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-clear-format-2-outline-24.svg",
+    "name": "clear-format-2",
+    "usage": "clear format 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7185",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-code-2-outline-24.svg",
+    "name": "code-2",
+    "usage": "code 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7189",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-column-delete-1-outline-24.svg",
+    "name": "column-delete-1",
+    "usage": "column delete 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7125",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-column-insert-left-1-outline-24.svg",
+    "name": "column-insert-left-1",
+    "usage": "column insert left 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7130",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-column-insert-right-1-outline-24.svg",
+    "name": "column-insert-right-1",
+    "usage": "column insert right 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7135",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-download-document-outline-20.svg",
+    "name": "download-document",
+    "usage": "下载文档",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7307",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-emoji-outline-20.svg",
+    "name": "emoji",
+    "usage": "emoji",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7315",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-file-code-2-outline-24.svg",
+    "name": "file-code-2",
+    "usage": "file code 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7193",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-font-color-outline-24.svg",
+    "name": "font-color",
+    "usage": "font color",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7348",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-font-color-2-outline-24.svg",
+    "name": "font-color-2",
+    "usage": "font color 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7197",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-font-family-2-outline-24.svg",
+    "name": "font-family-2",
+    "usage": "font family 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7201",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-font-size-2-outline-24.svg",
+    "name": "font-size-2",
+    "usage": "font size 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7205",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-format-painter-outline-20.svg",
+    "name": "format-painter",
+    "usage": "format painter",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7285",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-heading-2-outline-24.svg",
+    "name": "heading-2",
+    "usage": "heading 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7210",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-horizontal-rule-2-outline-24.svg",
+    "name": "horizontal-rule-2",
+    "usage": "horizontal rule 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7214",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-image-52-outline-24.svg",
+    "name": "image-52",
+    "usage": "image 52",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7220",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-italic-outline-24.svg",
+    "name": "italic",
+    "usage": "italic",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7336",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-italic-2-outline-24.svg",
+    "name": "italic-2",
+    "usage": "italic 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7224",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-link-2-outline-24.svg",
+    "name": "link-2",
+    "usage": "link 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7228",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-list-ol-2-outline-24.svg",
+    "name": "list-ol-2",
+    "usage": "list ol 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7232",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-list-ul-2-outline-24.svg",
+    "name": "list-ul-2",
+    "usage": "list ul 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7239",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-no-color-2-outline-24.svg",
+    "name": "no-color-2",
+    "usage": "no color 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7246",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-redo-outline-20.svg",
+    "name": "redo",
+    "usage": "重做",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7282",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-redo-2-outline-24.svg",
+    "name": "redo-2",
+    "usage": "redo 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7248",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-row-delete-1-outline-24.svg",
+    "name": "row-delete-1",
+    "usage": "row delete 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7140",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-row-insert-above-1-outline-24.svg",
+    "name": "row-insert-above-1",
+    "usage": "row insert above 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7145",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-row-insert-below-1-outline-24.svg",
+    "name": "row-insert-below-1",
+    "usage": "row insert below 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7150",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-smart-document-outline-20.svg",
+    "name": "smart-document",
+    "usage": "智能文档操作",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7296",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-strikethrough-2-outline-24.svg",
+    "name": "strikethrough-2",
+    "usage": "strikethrough 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7251",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-table-1-outline-24.svg",
+    "name": "table-1",
+    "usage": "table 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7253",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-table-delete-1-outline-24.svg",
+    "name": "table-delete-1",
+    "usage": "table delete 1",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7155",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-tasks-2-outline-24.svg",
+    "name": "tasks-2",
+    "usage": "tasks 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7259",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-text-height-2-outline-24.svg",
+    "name": "text-height-2",
+    "usage": "text height 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7264",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-underline-outline-24.svg",
+    "name": "underline",
+    "usage": "underline",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7343",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-underline-2-outline-24.svg",
+    "name": "underline-2",
+    "usage": "underline 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7271",
+    "colors": [
+      "#333333"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-undo-outline-disabled-20.svg",
+    "name": "undo",
+    "usage": "撤销",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "disabled",
+    "width": 20,
+    "height": 20,
+    "confidence": "visual-inference",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7279",
+    "colors": [
+      "#999999"
+    ]
+  },
+  {
+    "path": "06-editor-tools/mail-undo-2-outline-24.svg",
+    "name": "undo-2",
+    "usage": "undo 2",
+    "category": "06-editor-tools",
+    "style": "outline",
+    "state": "default",
+    "width": 24,
+    "height": 24,
+    "confidence": "source-label",
+    "source": "https://www.figma.com/design/dUqREAmGgzGmpF8JMYH6kV/Email?node-id=3348-7274",
+    "colors": [
+      "#333333"
+    ]
+  }
+]

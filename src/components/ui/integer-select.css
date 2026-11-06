@@ -1,0 +1,4 @@
+.product-integer-select{width:100px;flex:none;min-width:0}
+.product-integer-select>[data-slot=input-group]{background:var(--card)}
+.product-integer-select input{min-width:0;font-size:var(--type-body-size)}
+.product-integer-select>p{margin:var(--space-1) 0 0;color:var(--destructive);font-size:var(--type-caption-size);line-height:var(--type-caption-line);white-space:normal}

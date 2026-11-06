@@ -1,0 +1,12 @@
+{
+  "date": "2026-11-01",
+  "policy": "只允许精确存量。新例外须说明用途；不得重建此文件掩盖新增差异。",
+  "nativeButtonBudgets": {
+    "src/components/blocks/attachment-item.tsx": {
+      "count": 1,
+      "reason": "旧版导航、标签或组合触发结构的存量；本轮不机械改造，新增不得增加。"
+    }
+  },
+  "nativeInputBudgets": {},
+  "styleExceptions": []
+}

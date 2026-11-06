@@ -1,0 +1,3162 @@
+{
+  "schemaVersion": 1,
+  "version": "0.1.0-preview.5",
+  "project": {
+    "id": "company-prototype",
+    "name": "公司原型工作台",
+    "port": 5174
+  },
+  "reference": null,
+  "release": null,
+  "source": {
+    "commit": "ba2ebedc30d9e107c2348d70cb07b53b76add850",
+    "state": "working-tree",
+    "repository": "teleMail-V2",
+    "exportCommand": "npm run workbench:release"
+  },
+  "components": [
+    "integer-select",
+    "action-button",
+    "action-status",
+    "alert",
+    "async-state",
+    "attachment",
+    "attachment-count",
+    "attachment-item",
+    "avatar",
+    "badge",
+    "breadcrumb",
+    "bubble",
+    "button",
+    "calendar",
+    "card",
+    "checkbox",
+    "collapsible",
+    "combobox",
+    "contact-summary",
+    "context-menu",
+    "credential-field",
+    "dialog",
+    "drawer",
+    "dropdown-menu",
+    "email-address-field",
+    "field",
+    "form-field",
+    "hover-card",
+    "input",
+    "input-group",
+    "label",
+    "list-detail-layout",
+    "marker",
+    "message",
+    "message-scroller",
+    "modal-form-layout",
+    "navigation-menu",
+    "pagination",
+    "people-stack",
+    "popover",
+    "product-fields",
+    "product-icon",
+    "product-patterns",
+    "progress",
+    "questionnaire",
+    "radio-group",
+    "recipient-chip",
+    "resizable",
+    "schedule-summary",
+    "scroll-area",
+    "search-field",
+    "select",
+    "separator",
+    "server-settings-fields",
+    "sheet",
+    "sidebar",
+    "skeleton",
+    "slider",
+    "sonner",
+    "status-pill",
+    "switch",
+    "tabs",
+    "textarea",
+    "toggle",
+    "toggle-group",
+    "tooltip",
+    "work-card",
+    "application-shell",
+    "im-workspace"
+  ],
+  "files": [
+    {
+      "path": ".gitattributes",
+      "sha256": "caf81c1e6b1cbd3597ad5bfd9afffbbf99b610d73591d0234a369947095cdcc6",
+      "sourcePath": "framework/starter/.gitattributes",
+      "ownership": "project"
+    },
+    {
+      "path": ".gitignore",
+      "sha256": "c9d3e2abb4a66467ccec2d8545b182cec34fddbb4e299d720cfd8e289d2e674b",
+      "sourcePath": "framework/starter/.gitignore",
+      "ownership": "upstream"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "ccd7e1b9b96adb5107da970484b7db09b4c6a7c11674bcee7da7ccb2264823d0",
+      "sourcePath": "framework/starter/AGENTS.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "components.json",
+      "sha256": "54a546d9f29f8ec923cf395b76767f19d08fd6b0f424b9c2793913122ade3c55",
+      "sourcePath": "components.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "docs/component-usage.md",
+      "sha256": "72ea6f24a66a94c2ee710e0892ffdc8b437ef045935efe77ea68fc86edf06c8f",
+      "sourcePath": "framework/starter/docs/component-usage.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "docs/current-product-rules.md",
+      "sha256": "af55a5596dfd00adb518bdf1186cae75561ff5d76b5137c5200fff3eee667447",
+      "sourcePath": "framework/starter/docs/current-product-rules.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "docs/design-system-freeze-v1.md",
+      "sha256": "72a2ad17fafc3e3e195cbe8408478a8982ff31ceeb08e5c61f32d92499010ba3",
+      "sourcePath": "docs/design-system-freeze-v1.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "docs/design-system.md",
+      "sha256": "d04b1ee187895839deb4a3cacbbaffe316e18574c2a53ec67aae3f74c81c8249",
+      "sourcePath": "docs/design-system.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "docs/product-icons-import.md",
+      "sha256": "5e6e6fd1e0b18088b99b282783a47a604f9ddf987bf0bd4a8fcabde448daa1de",
+      "sourcePath": "docs/product-icons-import.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "docs/workbench-release.md",
+      "sha256": "15842032584385c778e262d6fe984c27cd8979b64e0955039a9ecbcea5ee94c1",
+      "sourcePath": "framework/releases/0.1.0-preview.5.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "index.html",
+      "sha256": "d25ec5fc52a844487687e9b691d34f43cb5532ae08de37245d55651c835cc9cd",
+      "sourcePath": "framework/starter",
+      "ownership": "upstream"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "c748ffa85fabf32fe1616c0eca2ab010ec857e041d6870e286c6157a3700d39e",
+      "sourcePath": "package-lock.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "package.json",
+      "sha256": "61aa725d5c681613ef64a65dc6387e2fb63a7afc6d5a82dc5299a6efc3ad2b1c",
+      "sourcePath": "package.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/avatars/shadcn.png",
+      "sha256": "513d06f542692036ff0bb17938f04b3efd60567ba2cae08049469d21f18e0524",
+      "sourcePath": "public/avatars/shadcn.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-archive-filled-active-20-02.svg",
+      "sha256": "7bca128cc25e64a707bcbd0d68ea495b2b29d748b170101289b4209149bc8819",
+      "sourcePath": "public/icons/email/01-app-bar/mail-archive-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-archive-filled-active-20.svg",
+      "sha256": "bda6a0f4379b1a598a9d4a33297662d50387ecf995ba0cd26e21e0f5507b0eea",
+      "sourcePath": "public/icons/email/01-app-bar/mail-archive-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-archive-outline-20.svg",
+      "sha256": "05afd4d691f2fac2de1845f12a38255252bdab1b8fc6ceeac4a4e33471176cfd",
+      "sourcePath": "public/icons/email/01-app-bar/mail-archive-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-block-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-block-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-block-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-block-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-block-sender-filled-active-20-02.svg",
+      "sha256": "d6115e39966c8fa6863e448acab54d7c5d8b1ec5d77e4769e25118f300e0008c",
+      "sourcePath": "public/icons/email/01-app-bar/mail-block-sender-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-block-sender-filled-active-20.svg",
+      "sha256": "7945cb043da971d9f2353a3fcddfafdd299a53fea89df5e87edb014156fb8695",
+      "sourcePath": "public/icons/email/01-app-bar/mail-block-sender-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-block-sender-outline-20.svg",
+      "sha256": "12c1f72aee349080bdf1a7997290820d5ced2a3762aec2364f4ddcb69c96cef8",
+      "sourcePath": "public/icons/email/01-app-bar/mail-block-sender-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-category-filled-active-20.svg",
+      "sha256": "dbd9ec47c3d4417fd0f75401083a20392dcb8699fbaa4089bd0913dea3837542",
+      "sourcePath": "public/icons/email/01-app-bar/mail-category-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-change-color-filled-active-20.svg",
+      "sha256": "8a57741c3c7e3894c5518ca58833790125d610a5ba8d123f519e28e24cfa1a9b",
+      "sourcePath": "public/icons/email/01-app-bar/mail-change-color-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-clean-up-filled-active-20-02.svg",
+      "sha256": "05d1f25434a254edcc975b0b151c7c19932ef68cae8249f8d869fc2e475b1c96",
+      "sourcePath": "public/icons/email/01-app-bar/mail-clean-up-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-clean-up-filled-active-20.svg",
+      "sha256": "05d1f25434a254edcc975b0b151c7c19932ef68cae8249f8d869fc2e475b1c96",
+      "sourcePath": "public/icons/email/01-app-bar/mail-clean-up-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-clean-up-outline-20.svg",
+      "sha256": "4ce06c38c7dceee89dc2dcc64c82a9eb4904028d45748ab958546bd6be80e62a",
+      "sourcePath": "public/icons/email/01-app-bar/mail-clean-up-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-delete-filled-active-20-02.svg",
+      "sha256": "062bbf02bee51f8628baae3394667ff04b124ba7733230851709d9d66cccbebb",
+      "sourcePath": "public/icons/email/01-app-bar/mail-delete-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-delete-filled-active-20.svg",
+      "sha256": "062bbf02bee51f8628baae3394667ff04b124ba7733230851709d9d66cccbebb",
+      "sourcePath": "public/icons/email/01-app-bar/mail-delete-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-delete-outline-20-02.svg",
+      "sha256": "d2204a78d65fe1779905af6dbe53b09da20309fccbe0c5dd24a9dcd906028b4c",
+      "sourcePath": "public/icons/email/01-app-bar/mail-delete-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-delete-outline-20.svg",
+      "sha256": "6af32df3dc7bf2f2a087aaca6acd4a56de0843d8e90882eb138a401b1a95add5",
+      "sourcePath": "public/icons/email/01-app-bar/mail-delete-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-empty-folder-filled-active-20.svg",
+      "sha256": "ec46ea580f143aeeb6bd7d25ba5b836b904aefc745846b241f52a5261193da23",
+      "sourcePath": "public/icons/email/01-app-bar/mail-empty-folder-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-favorite-filled-active-20.svg",
+      "sha256": "dbe3f4415348438301f6f9648acfc51accfd91352c2fa4de09e220ee9a2867f2",
+      "sourcePath": "public/icons/email/01-app-bar/mail-favorite-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-flag-filled-active-20-02.svg",
+      "sha256": "d1a229459f2403aa99fa61e1d82940f7690378d7b6205384d64060e41b58df49",
+      "sourcePath": "public/icons/email/01-app-bar/mail-flag-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-flag-filled-active-20.svg",
+      "sha256": "d1a229459f2403aa99fa61e1d82940f7690378d7b6205384d64060e41b58df49",
+      "sourcePath": "public/icons/email/01-app-bar/mail-flag-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-flag-outline-20-02.svg",
+      "sha256": "35fb829ceba728651f9f3dd0078c644621228f6e92afc52dc7fddcbebc7d4a15",
+      "sourcePath": "public/icons/email/01-app-bar/mail-flag-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-flag-outline-20.svg",
+      "sha256": "35fb829ceba728651f9f3dd0078c644621228f6e92afc52dc7fddcbebc7d4a15",
+      "sourcePath": "public/icons/email/01-app-bar/mail-flag-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-forward-outline-active-20.svg",
+      "sha256": "90b9ea184b20eaaf40f494e139d184a36169b02b7cfe8aa9cbfe805182f72116",
+      "sourcePath": "public/icons/email/01-app-bar/mail-forward-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-ignore-filled-active-20-02.svg",
+      "sha256": "e8e4576bfe48a98cb9fd68259bd1dfd7255309344c451bebd8cec5650f49750c",
+      "sourcePath": "public/icons/email/01-app-bar/mail-ignore-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-ignore-filled-active-20.svg",
+      "sha256": "28cfb8dacd985c0c21145c52cf6f2a1fe14dd1ee2db7fc3da2e69b451989eaa3",
+      "sourcePath": "public/icons/email/01-app-bar/mail-ignore-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-ignore-outline-20.svg",
+      "sha256": "343f0a8863a784163abaf7ce2b3524702fb05380eba282d42bb1768aec73a46a",
+      "sourcePath": "public/icons/email/01-app-bar/mail-ignore-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-language-outline-20.svg",
+      "sha256": "ef0683442abc36329831c275aa8010937adfcb65221207d6438e3a74bde7a44e",
+      "sourcePath": "public/icons/email/01-app-bar/mail-language-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-mark-all-read-filled-active-20.svg",
+      "sha256": "58dc9d304ab6268099b433f517cde3077de403f3129998e4b76f10a98d6eeac2",
+      "sourcePath": "public/icons/email/01-app-bar/mail-mark-all-read-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-mark-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-mark-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-mark-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-mark-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-mark-read-filled-active-20.svg",
+      "sha256": "94406ca5af9944f109ac3887c7be6ec352a9a9efb0a9eaaa1274c3594f9f73f9",
+      "sourcePath": "public/icons/email/01-app-bar/mail-mark-read-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-mark-unread-filled-active-20.svg",
+      "sha256": "850a4bb8b101d54761494cdaf96c18b6cee3cd600c168be58f9bec8e2bfe6c03",
+      "sourcePath": "public/icons/email/01-app-bar/mail-mark-unread-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-down-outline-active-20.svg",
+      "sha256": "2f93c692f64ec0c16106b0b963c6a7d8198e83ee29983808878a9159e78390d2",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-down-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-filled-active-20-02.svg",
+      "sha256": "2460164517fd72e75a34ae2588564df02bfc8fffb1b822315f330a299ef53321",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-filled-active-20.svg",
+      "sha256": "283fe8999ebc5ea7842d03a9b364fe7f68b3bea3473f870b58b9a39f4d903637",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-outline-20.svg",
+      "sha256": "7217038f785aeff80eb3d07b8e4eaa5dd6382c2eeffe964f89ce58d1dede153e",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-to-inbox-filled-active-20.svg",
+      "sha256": "def4ef073e35df6628cf2e97aec6d359628b889aed9460bd04760c52a9ed13a4",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-to-inbox-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-move-up-outline-active-20.svg",
+      "sha256": "6024d543ab271b915c1d7e5b0b0aea6aa2e97cba959d860ac84ff26081b20b49",
+      "sourcePath": "public/icons/email/01-app-bar/mail-move-up-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-new-subfolder-filled-active-20.svg",
+      "sha256": "77bc58fa188725fae8c11e00112a2a65dfdd84dc292c840aabf6114ac2bc40ee",
+      "sourcePath": "public/icons/email/01-app-bar/mail-new-subfolder-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-open-new-tab-filled-active-20.svg",
+      "sha256": "eb07b88c1db2bec24808048625416b84d8b5b9bd40d1dc51cf46e33e1d935515",
+      "sourcePath": "public/icons/email/01-app-bar/mail-open-new-tab-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-print-filled-active-20-02.svg",
+      "sha256": "d0990d87bce976865ccb812d95aeb41962f8bcff9b0630755a1f7ac91450f2e3",
+      "sourcePath": "public/icons/email/01-app-bar/mail-print-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-print-filled-active-20.svg",
+      "sha256": "1a134ce9649ba7d8eaa2e4f0da720c7f53266033c35a42dcb0d1e95d013c2e11",
+      "sourcePath": "public/icons/email/01-app-bar/mail-print-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-print-outline-20.svg",
+      "sha256": "4a0d76bd53e25a32152f3a6ce345c27cfc27fce35f0a6c32ec0d384a53239009",
+      "sourcePath": "public/icons/email/01-app-bar/mail-print-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-read-filled-active-20.svg",
+      "sha256": "52368599c8b4417ddab2dff0e5393d9dbc6f94947f9648a7186863e24bfa333f",
+      "sourcePath": "public/icons/email/01-app-bar/mail-read-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-read-outline-20.svg",
+      "sha256": "60d56933f9c4e084a291b6e25880039c873a51db05b52d54fb1ef4e7a7e3dfab",
+      "sourcePath": "public/icons/email/01-app-bar/mail-read-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-rename-outline-active-20.svg",
+      "sha256": "4caa14c6b38de24d651d2f9a93db118fd19eb0dc96f74f76d29db971e5213633",
+      "sourcePath": "public/icons/email/01-app-bar/mail-rename-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-all-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-all-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-all-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-all-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-all-outline-20.svg",
+      "sha256": "b6012bbca8d36e244bd9531764dda9af96c40734023d4b209ac089c18f025de1",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-all-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-all-outline-active-20-02.svg",
+      "sha256": "fe42159bcad67ca381d716ebd5a855da156cc8ad7e04d25c13adb6d0b79ee529",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-all-outline-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-all-outline-active-20-03.svg",
+      "sha256": "67e1fffbbad7671fb907583c45a5fe9b69e257730e901783c57d596657789c2f",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-all-outline-active-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-all-outline-active-20.svg",
+      "sha256": "67e1fffbbad7671fb907583c45a5fe9b69e257730e901783c57d596657789c2f",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-all-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-message-confirm-outline-20.svg",
+      "sha256": "0b2e794604daa58cb357b1c40278e40ea82c960adee50adf86ea1c64856b1308",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-message-confirm-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-message-outline-20.svg",
+      "sha256": "e2d296fe39cfaa07bf7f7c314e2acdf3347351b6f45a85f1078d871e4499c960",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-message-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-reply-outline-active-20.svg",
+      "sha256": "243efd98ea6e2169ec0f0e6dd538005efd46606eb56293f547ab63b534115a3b",
+      "sourcePath": "public/icons/email/01-app-bar/mail-reply-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-report-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-report-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-report-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-report-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-report-filled-active-20-02.svg",
+      "sha256": "2d3ece265e07b1dd6a1daa3c75fb5146c2486512b0fe3402a9435a771e2a21f3",
+      "sourcePath": "public/icons/email/01-app-bar/mail-report-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-report-filled-active-20.svg",
+      "sha256": "6d951da3dea9649290aac50b40c4db048e9b2c80647a785c9c5be04921cc3675",
+      "sourcePath": "public/icons/email/01-app-bar/mail-report-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-report-outline-20.svg",
+      "sha256": "6351013de9cad7fdf7c1686535626a6f43e272a6f1e341b6dcb5be536030f1ab",
+      "sourcePath": "public/icons/email/01-app-bar/mail-report-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-rules-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-rules-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-rules-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-rules-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-rules-filled-active-20-02.svg",
+      "sha256": "d4767bedb43220f98e755d6d9a3618b70503cce948c17e8e8c2881510dd6b78a",
+      "sourcePath": "public/icons/email/01-app-bar/mail-rules-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-rules-filled-active-20.svg",
+      "sha256": "02d2ca6fc372edc5504edbff51087fb7c3c48a25f4d56ba311fc14fed001bf06",
+      "sourcePath": "public/icons/email/01-app-bar/mail-rules-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-rules-outline-20.svg",
+      "sha256": "f99883185bfccdf43b6ba2d3e3417e2805bb16fcf6e408382dcefaa7cae72cac",
+      "sourcePath": "public/icons/email/01-app-bar/mail-rules-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-select-folder-filled-active-20.svg",
+      "sha256": "ad137ff0ff2b2d524678de7f44f24a5595da78ab343b4d41c143f3544c1761ae",
+      "sourcePath": "public/icons/email/01-app-bar/mail-select-folder-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-snooze-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-snooze-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-snooze-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-snooze-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-snooze-filled-active-20-02.svg",
+      "sha256": "823945f785f646d29be0e5fe5dff6bec8186696734e27357aab1962942478e48",
+      "sourcePath": "public/icons/email/01-app-bar/mail-snooze-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-snooze-filled-active-20.svg",
+      "sha256": "1c0078a3bb0fc63fbcf52fe02cc6d27e93102f5a7d8cc10a4b9c253ab2de5b05",
+      "sourcePath": "public/icons/email/01-app-bar/mail-snooze-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-snooze-outline-20.svg",
+      "sha256": "fac5f08d1cec1921874a69bf9239d1b64100eebb33926891c76ad3d25818e865",
+      "sourcePath": "public/icons/email/01-app-bar/mail-snooze-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-sync-outline-20.svg",
+      "sha256": "e11a005842b907e1a17a8b601cad2efbd965cf4eb1ce50afae48d921082e82cc",
+      "sourcePath": "public/icons/email/01-app-bar/mail-sync-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-tag-dropdown-outline-10x6-02.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-tag-dropdown-outline-10x6-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-tag-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/01-app-bar/mail-tag-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-tag-filled-active-20.svg",
+      "sha256": "84731aa00f1dbe068165ea38540cbc1ca083fd0789a2c81adafdb14811883594",
+      "sourcePath": "public/icons/email/01-app-bar/mail-tag-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-tag-outline-20.svg",
+      "sha256": "8be727ae1e326fad987ac686097996a08a2088493c52354737ea9410bc735222",
+      "sourcePath": "public/icons/email/01-app-bar/mail-tag-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-undo-outline-20.svg",
+      "sha256": "84a69f27e5571c9aa31155c67d0fe4a99e824dea0e138bb531c7aea7a0bfb76a",
+      "sourcePath": "public/icons/email/01-app-bar/mail-undo-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-undo-outline-active-20-02.svg",
+      "sha256": "b4bbe6931d94d776d4d55635f0c84dc6e852d04923ddeae271dd06de5cac6ea2",
+      "sourcePath": "public/icons/email/01-app-bar/mail-undo-outline-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-undo-outline-active-20.svg",
+      "sha256": "b4bbe6931d94d776d4d55635f0c84dc6e852d04923ddeae271dd06de5cac6ea2",
+      "sourcePath": "public/icons/email/01-app-bar/mail-undo-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-unfavorite-filled-active-20.svg",
+      "sha256": "8af145e0a5436c430bdb49b9b045c6b5a195983d4ebd3272a6542bb5e2bf01d2",
+      "sourcePath": "public/icons/email/01-app-bar/mail-unfavorite-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-unread-filled-active-20.svg",
+      "sha256": "850a4bb8b101d54761494cdaf96c18b6cee3cd600c168be58f9bec8e2bfe6c03",
+      "sourcePath": "public/icons/email/01-app-bar/mail-unread-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/01-app-bar/mail-unread-outline-20.svg",
+      "sha256": "a789e87b354535f7e663694dcccf2115941c9ecaebf6b32ed171826eb3094bc9",
+      "sourcePath": "public/icons/email/01-app-bar/mail-unread-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-change-color-filled-active-20-02.svg",
+      "sha256": "7a7ece234fc338747f0c6a3ebaf74acb56b7e770793da4bdc54fa8c7ba56cee2",
+      "sourcePath": "public/icons/email/02-folders/mail-change-color-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-delete-filled-20.svg",
+      "sha256": "619668649bf93e0b9331a4cf90735abac95b3cef54537bea05c3c3f7d4d8099c",
+      "sourcePath": "public/icons/email/02-folders/mail-delete-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-delete-filled-active-20-03.svg",
+      "sha256": "f0e169c1441b84a82d389e7872eba6ccd351e5cff6867f78141029edcad4e66e",
+      "sourcePath": "public/icons/email/02-folders/mail-delete-filled-active-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-delete-outline-20-03.svg",
+      "sha256": "e46ad926baf717857df649e8fdd634f7f0cb3da7d370ce66e3a5756f8f31b69c",
+      "sourcePath": "public/icons/email/02-folders/mail-delete-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-empty-filled-active-20.svg",
+      "sha256": "ec46ea580f143aeeb6bd7d25ba5b836b904aefc745846b241f52a5261193da23",
+      "sourcePath": "public/icons/email/02-folders/mail-empty-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-favorite-filled-active-20-02.svg",
+      "sha256": "dbe3f4415348438301f6f9648acfc51accfd91352c2fa4de09e220ee9a2867f2",
+      "sourcePath": "public/icons/email/02-folders/mail-favorite-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-file-remove-filled-20.svg",
+      "sha256": "c5581dba21b66e05507b3be907a61104a8abaabf469507942bcd3fb597367f9c",
+      "sourcePath": "public/icons/email/02-folders/mail-file-remove-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-file-remove-filled-active-20.svg",
+      "sha256": "d8692ba7569875eca5c19f6acdde1fd4c04342d93118ed2023e2c3480121f2b0",
+      "sourcePath": "public/icons/email/02-folders/mail-file-remove-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-file-remove-outline-20.svg",
+      "sha256": "f44966fe6323c0cf04be7546c76bcf9f784e3c3ab860ff9152abd5c610277b5c",
+      "sourcePath": "public/icons/email/02-folders/mail-file-remove-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-flag-filled-20.svg",
+      "sha256": "fc6ea8c99c2006089b1a47071fae483fc96593a387f92967cda525eb57c1e975",
+      "sourcePath": "public/icons/email/02-folders/mail-flag-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-flag-filled-active-20-03.svg",
+      "sha256": "c9cceba4cd3cd56a37161fb3346c3f7a6a81012b7ef17a0597eafbe094602de3",
+      "sourcePath": "public/icons/email/02-folders/mail-flag-filled-active-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-flag-outline-20-03.svg",
+      "sha256": "476dff57d1c6f1fb4069a72cd460c78b3df0c54ff0b1199370ea7b918864650d",
+      "sourcePath": "public/icons/email/02-folders/mail-flag-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-archive-filled-20.svg",
+      "sha256": "7e4f90767cfbd8df8fa2cbd38b410f3838a74fe6ab2cc9440125e971da094dcd",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-archive-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-archive-filled-active-20.svg",
+      "sha256": "1cfc37acf63a37036cb8a1f025beac5c8d26faa9209933265fce027b378913fd",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-archive-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-archive-outline-20.svg",
+      "sha256": "d8dae2659ecc9d32bd8b980773f2298f4491696dbe0984324d9991be6e699b28",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-archive-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-download-filled-20-02.svg",
+      "sha256": "e50ac2426e604bcda63c6055ad47f651f3ea1155460b15c5065b5578c647c061",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-download-filled-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-download-filled-20.svg",
+      "sha256": "db8eb4a1d4c82a59f4138cb8f720e23b178a5a8de19366ff625289b191a4ec99",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-download-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-download-filled-active-20-02.svg",
+      "sha256": "091b57a46d07e4456ecdf023a53f6dd72716a2c83c9f9b888429918aaedc7537",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-download-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-download-filled-active-20.svg",
+      "sha256": "62049757c5a43a1cbc0d1092eec54e422b80b91aea4347ab112d40d9413ed3e3",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-download-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-download-outline-20-02.svg",
+      "sha256": "ce58e8791b0c7ee4133fe5a73fbc8ad19af844bea923a44cd779e56aba81e07d",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-download-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-download-outline-20.svg",
+      "sha256": "59f66cbb62d2c42e787743c15c64e7f765cf2536a6e69f0c999b4c17dedf056f",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-download-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-filled-20.svg",
+      "sha256": "aa6097c1802eb84f3a70d17cae514a6f087342cb5b6a06aab325a4d0d84c40dc",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-minus-filled-20.svg",
+      "sha256": "d3bdd0dd09eac3fce1e3dc4638631151d504897689953cccaf7e97df18cace5b",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-minus-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-minus-outline-20-02.svg",
+      "sha256": "27ed1bf9baac17ea050ff7f76883a5ed123f717ac3118ead5ece608ffacd2c53",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-minus-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-minus-outline-20.svg",
+      "sha256": "83140bd8c0f4e291a2ec756e7c58c40304214fcbb3c28b22dc92e12108534b94",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-minus-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-open-filled-20-02.svg",
+      "sha256": "88556bedc6e9241e00ce256db10983baf9f020225dffa404a97ca83d26c17a96",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-open-filled-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-open-filled-20.svg",
+      "sha256": "5312e414a639dd14d60444f51569bdd000d1499c3efea0326f38f18ba54b7f9c",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-open-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-open-filled-active-20.svg",
+      "sha256": "157dc318448062a1893148e5c22ef0232567f09ffb2d624381fed3c180ef3159",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-open-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-open-outline-20-02.svg",
+      "sha256": "824a796ef237bd2a0fe585b2cd6068128b13ce92dfb99a93305a3aa2608d27d1",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-open-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-open-outline-20-03.svg",
+      "sha256": "cce2f2378665d5bd38059488112ed7330a8fb962f1b5cc3fd5e18a3ae9540180",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-open-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-open-outline-20.svg",
+      "sha256": "2258fdac0e96d39655eaed53a5f2925e7d372cc939f75a0430ae0aaca7f36a80",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-open-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-outline-20-02.svg",
+      "sha256": "3bcb2609bf06b7602eb45afdb3fde268e66fec0910f095f035fa250b1a2344c3",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-outline-20.svg",
+      "sha256": "76edffb5cfd11ad39ff26d9885560da635984c27f2dea6eb9d0f11bc141db5b1",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-upload-filled-20.svg",
+      "sha256": "6e0c0febfe4f24051e27d8bcdbbebd52cb9f4cbe0b79a1a8c0d57d774bcadcbc",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-upload-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-upload-filled-active-20.svg",
+      "sha256": "e3f2b9078f972c19f6ab3502ee01737049977bcdef927663f323a16043606fc8",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-upload-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-folder-upload-outline-20.svg",
+      "sha256": "8bc8572ba945f5597778f7fe468e977169169cf3dc5dc79ed100d86a24de402e",
+      "sourcePath": "public/icons/email/02-folders/mail-folder-upload-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-mark-all-as-read-filled-active-20.svg",
+      "sha256": "58dc9d304ab6268099b433f517cde3077de403f3129998e4b76f10a98d6eeac2",
+      "sourcePath": "public/icons/email/02-folders/mail-mark-all-as-read-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-move-down-outline-active-20-02.svg",
+      "sha256": "2f93c692f64ec0c16106b0b963c6a7d8198e83ee29983808878a9159e78390d2",
+      "sourcePath": "public/icons/email/02-folders/mail-move-down-outline-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-move-to-another-inbox-filled-active-20.svg",
+      "sha256": "def4ef073e35df6628cf2e97aec6d359628b889aed9460bd04760c52a9ed13a4",
+      "sourcePath": "public/icons/email/02-folders/mail-move-to-another-inbox-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-move-up-outline-active-20-02.svg",
+      "sha256": "6024d543ab271b915c1d7e5b0b0aea6aa2e97cba959d860ac84ff26081b20b49",
+      "sourcePath": "public/icons/email/02-folders/mail-move-up-outline-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-new-subfolder-filled-active-20-02.svg",
+      "sha256": "f73aa92acef946f3b9e33cf051d44da96f0fc0641d45b6d5f3fdcd07ee29e0aa",
+      "sourcePath": "public/icons/email/02-folders/mail-new-subfolder-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-open-in-new-tab-outline-active-20.svg",
+      "sha256": "8bb9d22bd2eec43b400f401e7ebf9218659ea641458a8a53056d88ace3e1b014",
+      "sourcePath": "public/icons/email/02-folders/mail-open-in-new-tab-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-rename-outline-active-20-02.svg",
+      "sha256": "01704036ba7dea4dd0f966fe4ebad46570c6aa90160972ba71242a19e7df8235",
+      "sourcePath": "public/icons/email/02-folders/mail-rename-outline-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-select-other-folder-filled-active-20.svg",
+      "sha256": "6ef1e88544fee9ff45a57a9bf215f77ecfddd6c4d891f45e264e71ad34af82d8",
+      "sourcePath": "public/icons/email/02-folders/mail-select-other-folder-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-send-filled-20.svg",
+      "sha256": "5d1bf8c2f678b99033659f24709822afc916a8c184f93b7e186e6beafa70031d",
+      "sourcePath": "public/icons/email/02-folders/mail-send-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-send-filled-active-20.svg",
+      "sha256": "c957f8bdae0100fac2a0398f2add74dae28b0d92a3a0036e11ba9140915adf5e",
+      "sourcePath": "public/icons/email/02-folders/mail-send-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-send-outline-20.svg",
+      "sha256": "2163947b2ef9078ae28bc172994283354b66c88063eb666a1b0332ec9f29e17e",
+      "sourcePath": "public/icons/email/02-folders/mail-send-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-snooze-filled-20.svg",
+      "sha256": "b13120b027c12dd2e786db26c31ad6c83bbe12647cb2f38561158d20ef203eaa",
+      "sourcePath": "public/icons/email/02-folders/mail-snooze-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-snooze-outline-20-02.svg",
+      "sha256": "283dcf3e497f7466676088fd32772b8d3f18a5322d8c3dd4f6575647b8d46d32",
+      "sourcePath": "public/icons/email/02-folders/mail-snooze-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-snooze-outline-20-03.svg",
+      "sha256": "10b55e2ccec75d94e7617247578adca94f8376afed0309968736320488097d04",
+      "sourcePath": "public/icons/email/02-folders/mail-snooze-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/02-folders/mail-unfavorite-filled-active-20-02.svg",
+      "sha256": "9cccb2659d10ce6bb01d89545ff99149e3779608add20467d850275d06df6413",
+      "sourcePath": "public/icons/email/02-folders/mail-unfavorite-filled-active-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-accessibility-check-outline-20.svg",
+      "sha256": "bf1f1fb2ed46402d8ad0a31602b5c19887fafc5e930f410c7e10afb5bce63005",
+      "sourcePath": "public/icons/email/03-home-view/mail-accessibility-check-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-account-filled-20.svg",
+      "sha256": "fb88c7359199ebf82f50ec478e8532110c491ab2c170504455cb8bd56d4fa55e",
+      "sourcePath": "public/icons/email/03-home-view/mail-account-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-account-outline-20.svg",
+      "sha256": "c7d04a59933495eb6e53c94389e11fa723ab55048c840194e43b01675f205cca",
+      "sourcePath": "public/icons/email/03-home-view/mail-account-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-account-verified-outline-20.svg",
+      "sha256": "667f07d31113843bb32c4bc67f383fc7ffd8bea503461fda93e99077fab01f9c",
+      "sourcePath": "public/icons/email/03-home-view/mail-account-verified-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-add-account-outline-20.svg",
+      "sha256": "e1680ca143a2d08054e117d5f7612ebb5ee59455b10203e4d9a5d0fe7cf0cbe4",
+      "sourcePath": "public/icons/email/03-home-view/mail-add-account-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-archive-outline-20-02.svg",
+      "sha256": "05afd4d691f2fac2de1845f12a38255252bdab1b8fc6ceeac4a4e33471176cfd",
+      "sourcePath": "public/icons/email/03-home-view/mail-archive-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-auto-format-outline-20.svg",
+      "sha256": "f248d1d135cdf501eec1b4ec039d7a98ad2d9c27df69a58e368991d3d3e66bcf",
+      "sourcePath": "public/icons/email/03-home-view/mail-auto-format-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-block-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-block-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-block-sender-outline-20-02.svg",
+      "sha256": "12c1f72aee349080bdf1a7997290820d5ced2a3762aec2364f4ddcb69c96cef8",
+      "sourcePath": "public/icons/email/03-home-view/mail-block-sender-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-clean-up-outline-20-02.svg",
+      "sha256": "4ce06c38c7dceee89dc2dcc64c82a9eb4904028d45748ab958546bd6be80e62a",
+      "sourcePath": "public/icons/email/03-home-view/mail-clean-up-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-compose-outline-20.svg",
+      "sha256": "c89b70121fe84f44f2b2d0adb1650c1f1f7f84ab3902b1abe01164b18913b1cc",
+      "sourcePath": "public/icons/email/03-home-view/mail-compose-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-contacts-filled-20.svg",
+      "sha256": "f91c70ce159e7d363d15662d86f12514d99cf894a1a63bec916a893174053d47",
+      "sourcePath": "public/icons/email/03-home-view/mail-contacts-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-contacts-outline-20.svg",
+      "sha256": "777dfe79f3159dcbead66935a4449773fdd11751bb827758aec067c7a31e2779",
+      "sourcePath": "public/icons/email/03-home-view/mail-contacts-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-conversation-stack-outline-20.svg",
+      "sha256": "42d04ddba39eda0cb645d5f6807ce727c945525284b5d35999eca13343283c6b",
+      "sourcePath": "public/icons/email/03-home-view/mail-conversation-stack-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-delegate-outline-20.svg",
+      "sha256": "497194826a5021e28bac0cc9792da0cf5ade1558ac0815637207987191f3e486",
+      "sourcePath": "public/icons/email/03-home-view/mail-delegate-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-delete-outline-20-04.svg",
+      "sha256": "6af32df3dc7bf2f2a087aaca6acd4a56de0843d8e90882eb138a401b1a95add5",
+      "sourcePath": "public/icons/email/03-home-view/mail-delete-outline-20-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-download-outline-20-02.svg",
+      "sha256": "28ad11bb3f25bd8027decaf172a5ac4881e2d538afcfc5f249681ea1457201ae",
+      "sourcePath": "public/icons/email/03-home-view/mail-download-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-download-outline-20.svg",
+      "sha256": "4d7a832d97fcfc71552c8a080ab4749818fccbe8f65fa8c2bc1625d971d24fcb",
+      "sourcePath": "public/icons/email/03-home-view/mail-download-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-flag-outline-20-04.svg",
+      "sha256": "35fb829ceba728651f9f3dd0078c644621228f6e92afc52dc7fddcbebc7d4a15",
+      "sourcePath": "public/icons/email/03-home-view/mail-flag-outline-20-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-folder-code-filled-20.svg",
+      "sha256": "f032bd9dbe18822dd6761236c9e868d20b6c08d4dfc7355d0339e48a245daea0",
+      "sourcePath": "public/icons/email/03-home-view/mail-folder-code-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-folder-code-outline-20.svg",
+      "sha256": "dd45141c9170f68d46abaf38b1bbf6a83c4efad29cb21529d7317d0b7fd0492e",
+      "sourcePath": "public/icons/email/03-home-view/mail-folder-code-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-folder-filled-20-02.svg",
+      "sha256": "de09dc4d9ac37e55a7d469bfcff59106ba568c6755d57e87afc94ba13437ecfe",
+      "sourcePath": "public/icons/email/03-home-view/mail-folder-filled-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-folder-open-filled-20-03.svg",
+      "sha256": "ece036c680c409cd3bb3f91124452f0b74dbc39633620be57f9f65498fac0887",
+      "sourcePath": "public/icons/email/03-home-view/mail-folder-open-filled-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-folder-open-outline-20-04.svg",
+      "sha256": "4ed109ad054bd7f6c2aa2620db3d9689cb159e12b45e3f22631581a8a372e986",
+      "sourcePath": "public/icons/email/03-home-view/mail-folder-open-outline-20-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-folder-outline-20-03.svg",
+      "sha256": "297452fb8b4c9875f8bbe44e9112658d5a35672d77147d62365a1e18ccd0139b",
+      "sourcePath": "public/icons/email/03-home-view/mail-folder-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-font-outline-20.svg",
+      "sha256": "9449803c1b84c8a89bb83887c231b226267d588934be9c4c5a5db7b6ca4e8ef4",
+      "sourcePath": "public/icons/email/03-home-view/mail-font-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-forward-outline-20.svg",
+      "sha256": "a57f04fa734439b04c435317d91b95aab70ccffd3caf091da3d92e5d3d419df3",
+      "sourcePath": "public/icons/email/03-home-view/mail-forward-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-ignore-outline-20-02.svg",
+      "sha256": "343f0a8863a784163abaf7ce2b3524702fb05380eba282d42bb1768aec73a46a",
+      "sourcePath": "public/icons/email/03-home-view/mail-ignore-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-important-outline-20.svg",
+      "sha256": "5b800d6f1f1b6ad079b61483d2b6025640b0e532f35f4b514cca506ec7622c69",
+      "sourcePath": "public/icons/email/03-home-view/mail-important-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-layout-split-outline-20.svg",
+      "sha256": "3d770f99de0d3128314d04f7bfca169f1a724b92e1f4b60e1b1abd32d459c8f7",
+      "sourcePath": "public/icons/email/03-home-view/mail-layout-split-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-mark-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-mark-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-message-preview-outline-20.svg",
+      "sha256": "f84655017e270b6f8bf2ec8ba47a2cc38e03387690aa9bcdb3f0628871db58a2",
+      "sourcePath": "public/icons/email/03-home-view/mail-message-preview-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-move-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-move-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-move-outline-20-02.svg",
+      "sha256": "246ca51a6852bd102f007bca20dc1e4a83133a396a22bbf2a63ab07b0d0d7da5",
+      "sourcePath": "public/icons/email/03-home-view/mail-move-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-new-subfolder-filled-20.svg",
+      "sha256": "774b786e052526b15ecfa93de1072ad9082604283f8c9258201359ffc60d8165",
+      "sourcePath": "public/icons/email/03-home-view/mail-new-subfolder-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-new-subfolder-outline-20.svg",
+      "sha256": "cca8ec0378131cf6c60803d5f360ec7c8af387824370483dfd9dd09f09668f94",
+      "sourcePath": "public/icons/email/03-home-view/mail-new-subfolder-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-print-outline-20-02.svg",
+      "sha256": "59fcfdbdb145ae4b2c10af5e1427b2cf2a46284967d3ad6eefa47f4f73555229",
+      "sourcePath": "public/icons/email/03-home-view/mail-print-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-print-outline-20-03.svg",
+      "sha256": "666f9b2b5f8b1d5d6534a5068ba227e7b157f4ac960111a7ab75bb0150747e2e",
+      "sourcePath": "public/icons/email/03-home-view/mail-print-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-read-filled-20.svg",
+      "sha256": "5d2daba6c7f4839828891b066225ce532c11df0ba0604126efb3bbcfb33eaae1",
+      "sourcePath": "public/icons/email/03-home-view/mail-read-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-read-outline-20-02.svg",
+      "sha256": "b74bf905f393d41ed188ef1263c83c1a6e87371248fd972bfd15347f46d10ace",
+      "sourcePath": "public/icons/email/03-home-view/mail-read-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-read-unread-outline-20.svg",
+      "sha256": "a789e87b354535f7e663694dcccf2115941c9ecaebf6b32ed171826eb3094bc9",
+      "sourcePath": "public/icons/email/03-home-view/mail-read-unread-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-receive-mail-filled-20.svg",
+      "sha256": "44c1ec5ef9416246586d7c7d4de972255cb61f793aaf8089720925e6205fd545",
+      "sourcePath": "public/icons/email/03-home-view/mail-receive-mail-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-receive-mail-outline-20.svg",
+      "sha256": "abe76cd04141068179c06fdfd7d1b10a020f51546ae919cbfd4fccf0329ecf84",
+      "sourcePath": "public/icons/email/03-home-view/mail-receive-mail-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-reply-all-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-reply-all-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-reply-all-outline-20-02.svg",
+      "sha256": "b6012bbca8d36e244bd9531764dda9af96c40734023d4b209ac089c18f025de1",
+      "sourcePath": "public/icons/email/03-home-view/mail-reply-all-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-reply-outline-20.svg",
+      "sha256": "65087a173b0f3c4caf105c1881fe7a91a2ceb52a6f21cd5facab772890dfd571",
+      "sourcePath": "public/icons/email/03-home-view/mail-reply-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-report-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-report-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-report-outline-20-02.svg",
+      "sha256": "4456a0db5b9735b63af77605ba85dca0444d8914140aefe2cdb73aca299270f2",
+      "sourcePath": "public/icons/email/03-home-view/mail-report-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-rules-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-rules-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-rules-outline-20-02.svg",
+      "sha256": "cd036fd4aea291168bc91bc1368e49a3306e04440a2d185318c838f2953bea00",
+      "sourcePath": "public/icons/email/03-home-view/mail-rules-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-save-draft-outline-20.svg",
+      "sha256": "cde20093d61575cf877c5141434b657bf6a434f05d87faa7493f19ea8c42de04",
+      "sourcePath": "public/icons/email/03-home-view/mail-save-draft-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-schedule-send-outline-20.svg",
+      "sha256": "40b3eb14a74b6ca2df1c33dcc61e5b8135a8de5f82f02ba12cfac8c60983ffdf",
+      "sourcePath": "public/icons/email/03-home-view/mail-schedule-send-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-send-mail-filled-20.svg",
+      "sha256": "44a2ce3ee3bfcf5c5fc20acc45c9d0874b1e70f5c29ff051e30926e07f430258",
+      "sourcePath": "public/icons/email/03-home-view/mail-send-mail-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-send-mail-outline-20.svg",
+      "sha256": "fb2657fa6f0055b15248e9904f5bccfffbc1a31079f866f73f2fd14d7696def1",
+      "sourcePath": "public/icons/email/03-home-view/mail-send-mail-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-settings-filled-20.svg",
+      "sha256": "2889a3eda83ee59461e9182efd9e68b417352ebf4db4cf59527bb6267ad5921e",
+      "sourcePath": "public/icons/email/03-home-view/mail-settings-filled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-settings-outline-20.svg",
+      "sha256": "a2fcb3de598b086cfe88076ad04599d82e72aa092c3b3fe4e1937a9e92ccc72b",
+      "sourcePath": "public/icons/email/03-home-view/mail-settings-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-snooze-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-snooze-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-snooze-outline-20-04.svg",
+      "sha256": "0050da7bb1c57bcbc17f66c85b8ca8836874f0957fdcea15e365b50072590f67",
+      "sourcePath": "public/icons/email/03-home-view/mail-snooze-outline-20-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-sort-outline-20.svg",
+      "sha256": "285397dc5acbae15935ac2c631403a6a2d667fa01f95308b6ed020b348981e60",
+      "sourcePath": "public/icons/email/03-home-view/mail-sort-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-sync-outline-20-02.svg",
+      "sha256": "e11a005842b907e1a17a8b601cad2efbd965cf4eb1ce50afae48d921082e82cc",
+      "sourcePath": "public/icons/email/03-home-view/mail-sync-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-tag-dropdown-outline-10x6-03.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/03-home-view/mail-tag-dropdown-outline-10x6-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-tag-outline-20-02.svg",
+      "sha256": "6bc3c889554977bf3e299eb0d533cdc647795c978b3daa0338a1c49eb2796d8d",
+      "sourcePath": "public/icons/email/03-home-view/mail-tag-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-text-format-outline-20.svg",
+      "sha256": "a2b1ed0e1e91371ba356bc7df4387eb849d70584704782244e05524f39a477ab",
+      "sourcePath": "public/icons/email/03-home-view/mail-text-format-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-undo-outline-20-02.svg",
+      "sha256": "84a69f27e5571c9aa31155c67d0fe4a99e824dea0e138bb531c7aea7a0bfb76a",
+      "sourcePath": "public/icons/email/03-home-view/mail-undo-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-view-collapse-details-outline-20.svg",
+      "sha256": "84eebb7cd1e5835eb3dfe7ee61d5c01b14c038ec83b23550af1fbc65f1e2788b",
+      "sourcePath": "public/icons/email/03-home-view/mail-view-collapse-details-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-view-confirm-outline-20.svg",
+      "sha256": "5f3eb124539448be043dd57272cacc6e4dd858aaacb6ca045153fc5d973f9144",
+      "sourcePath": "public/icons/email/03-home-view/mail-view-confirm-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-view-expand-details-outline-20.svg",
+      "sha256": "f018f1e61f5805b1316a8e2ddb22b3ab9f0715befda8c4fcfdbbac3d261d4e29",
+      "sourcePath": "public/icons/email/03-home-view/mail-view-expand-details-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-view-left-pane-outline-20.svg",
+      "sha256": "7459b7b5d65cfe51615c76eef9261a54880afea020d798a64fed3ec23823bbd4",
+      "sourcePath": "public/icons/email/03-home-view/mail-view-left-pane-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-view-right-pane-outline-20.svg",
+      "sha256": "d8b79593ea726c460acd55d4134596a70317fdaeaee4661e7ba2c009048a86ae",
+      "sourcePath": "public/icons/email/03-home-view/mail-view-right-pane-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-view-top-pane-outline-20.svg",
+      "sha256": "64379c2a6d96a2474c7de7ea7fe148fab80a5b73d8ae7bda1c06ae6db4ebef7c",
+      "sourcePath": "public/icons/email/03-home-view/mail-view-top-pane-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/03-home-view/mail-zoom-in-outline-20.svg",
+      "sha256": "a69dd923c2a341b1c29d628c63075bfdd62b1297d97bb5eb5fcccf3e058527ef",
+      "sourcePath": "public/icons/email/03-home-view/mail-zoom-in-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-archive-outline-20-03.svg",
+      "sha256": "05afd4d691f2fac2de1845f12a38255252bdab1b8fc6ceeac4a4e33471176cfd",
+      "sourcePath": "public/icons/email/04-context-menu/mail-archive-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-clean-up-outline-20-03.svg",
+      "sha256": "4ce06c38c7dceee89dc2dcc64c82a9eb4904028d45748ab958546bd6be80e62a",
+      "sourcePath": "public/icons/email/04-context-menu/mail-clean-up-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-delete-dropdown-outline-10x6.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-delete-dropdown-outline-10x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-delete-outline-20-05.svg",
+      "sha256": "6af32df3dc7bf2f2a087aaca6acd4a56de0843d8e90882eb138a401b1a95add5",
+      "sourcePath": "public/icons/email/04-context-menu/mail-delete-outline-20-05.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-flag-outline-20-05.svg",
+      "sha256": "35fb829ceba728651f9f3dd0078c644621228f6e92afc52dc7fddcbebc7d4a15",
+      "sourcePath": "public/icons/email/04-context-menu/mail-flag-outline-20-05.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-mark-dropdown-outline-10x6-04.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-mark-dropdown-outline-10x6-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-more-outline-24.svg",
+      "sha256": "e7f0db05c17214f129ebf401e631cd53a723d1a0d0166bfa7808e803a1ed3398",
+      "sourcePath": "public/icons/email/04-context-menu/mail-more-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-move-dropdown-outline-10x6-04.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-move-dropdown-outline-10x6-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-move-outline-20-03.svg",
+      "sha256": "87bae4fa58b965058048a34adccf156f87b0d3e52a8a06975d0a226acd1a1dd3",
+      "sourcePath": "public/icons/email/04-context-menu/mail-move-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-print-outline-20-04.svg",
+      "sha256": "689cc5e14d855c6dfb85884f2c0dc7b5bf172f5c264d3561845d1b7956c75811",
+      "sourcePath": "public/icons/email/04-context-menu/mail-print-outline-20-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-read-unread-outline-20-02.svg",
+      "sha256": "a789e87b354535f7e663694dcccf2115941c9ecaebf6b32ed171826eb3094bc9",
+      "sourcePath": "public/icons/email/04-context-menu/mail-read-unread-outline-20-02.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-reply-all-dropdown-outline-10x6-04.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-reply-all-dropdown-outline-10x6-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-reply-all-outline-20-03.svg",
+      "sha256": "b6012bbca8d36e244bd9531764dda9af96c40734023d4b209ac089c18f025de1",
+      "sourcePath": "public/icons/email/04-context-menu/mail-reply-all-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-report-dropdown-outline-10x6-04.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-report-dropdown-outline-10x6-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-report-outline-20-03.svg",
+      "sha256": "f33f2cf2a9589ce9340199d3a91d0b83a7298fbbb3995d97224dccc29f6a2433",
+      "sourcePath": "public/icons/email/04-context-menu/mail-report-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-rules-dropdown-outline-10x6-04.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-rules-dropdown-outline-10x6-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-rules-outline-20-03.svg",
+      "sha256": "49a104c26ceff275077168023f7f1ce711cfcce2ac571565324ebd89b9f1cba6",
+      "sourcePath": "public/icons/email/04-context-menu/mail-rules-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-snooze-dropdown-outline-10x6-04.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-snooze-dropdown-outline-10x6-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-snooze-outline-20-05.svg",
+      "sha256": "821a0df3e3a399369ae9905721687f670c3f6cf51b60ee2ba836bcd80625d62b",
+      "sourcePath": "public/icons/email/04-context-menu/mail-snooze-outline-20-05.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-tag-dropdown-outline-10x6-04.svg",
+      "sha256": "acd46bcb326ab3556d7894cc5bf7dc96bc2d59e238c1c5428d03d093ba992953",
+      "sourcePath": "public/icons/email/04-context-menu/mail-tag-dropdown-outline-10x6-04.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-tag-outline-20-03.svg",
+      "sha256": "0f32f025d8cd5e2fc61d5f8197a84f1bfa9ff49336ae7743715e99bf265ae0c6",
+      "sourcePath": "public/icons/email/04-context-menu/mail-tag-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/04-context-menu/mail-undo-outline-20-03.svg",
+      "sha256": "84a69f27e5571c9aa31155c67d0fe4a99e824dea0e138bb531c7aea7a0bfb76a",
+      "sourcePath": "public/icons/email/04-context-menu/mail-undo-outline-20-03.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-checkbox-multiple-outline-20.svg",
+      "sha256": "e421245a8e008cb86d02126e8b8dacdf5f57d2378637066996b193478de7f63b",
+      "sourcePath": "public/icons/email/05-selection-state/mail-checkbox-multiple-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-checkbox-outline-20.svg",
+      "sha256": "7fdea33c81a8b48741962361cec7bf7017cd90fe4a2c50a488dc5aff271ac529",
+      "sourcePath": "public/icons/email/05-selection-state/mail-checkbox-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-checkbox-selected-filled-active-20.svg",
+      "sha256": "b4cd0c2c04a38a6701cc047afe8349f0945ef6fc2e20c7ec253a5436e71896e9",
+      "sourcePath": "public/icons/email/05-selection-state/mail-checkbox-selected-filled-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-download-filled-active-24.svg",
+      "sha256": "9567a46611879a62064f37b30425ca573df530eb4a9d56c25d91e335bceb84a5",
+      "sourcePath": "public/icons/email/05-selection-state/mail-download-filled-active-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-flag-off-outline-20.svg",
+      "sha256": "c6e61c4312fc7e1cad9b587e3b3d2db8ef05ae1b4a0894287fb86fcd02f3e054",
+      "sourcePath": "public/icons/email/05-selection-state/mail-flag-off-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-flag-outline-20-06.svg",
+      "sha256": "076bb166ab0c8e32efc241b6df60fffcbe5b89e74c137629ae72f8a06cbec51f",
+      "sourcePath": "public/icons/email/05-selection-state/mail-flag-outline-20-06.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-important-filled-active-24.svg",
+      "sha256": "7b5119e60d0209e1c5e8edfd71ca4909ecd088e73b20c8496312213d3d6bec34",
+      "sourcePath": "public/icons/email/05-selection-state/mail-important-filled-active-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-location-outline-20.svg",
+      "sha256": "d22185439bfbcbb26dfa35ecf77adc489ca35887b76fe3bb0a1acc046ad89ce2",
+      "sourcePath": "public/icons/email/05-selection-state/mail-location-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-move-to-inbox-outline-20.svg",
+      "sha256": "b6c2dac2a211998a831fffff4afadb8c1eba9cfac00c5de4f4f91f730ac4f5b3",
+      "sourcePath": "public/icons/email/05-selection-state/mail-move-to-inbox-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-notifications-filled-active-24.svg",
+      "sha256": "7b8b30627209247ad79aa69ffaaa1d47ab8ca562ca30d8db3ef43cf7185fb19b",
+      "sourcePath": "public/icons/email/05-selection-state/mail-notifications-filled-active-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-remove-account-outline-20.svg",
+      "sha256": "2ab06e134900a62b03c7e4e9bb437132812256aeb7d06298e8e40192485af4c2",
+      "sourcePath": "public/icons/email/05-selection-state/mail-remove-account-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-save-draft-outline-active-20.svg",
+      "sha256": "8e51762ed5bd857134946a10e1df8642df525b8209fe2c103e1583a8177c6755",
+      "sourcePath": "public/icons/email/05-selection-state/mail-save-draft-outline-active-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/05-selection-state/mail-status-online-filled-active-24.svg",
+      "sha256": "ab55e139f336f3e240f72d4e3ffc81e3311b555afce4ef6527e566c7b7edf88c",
+      "sourcePath": "public/icons/email/05-selection-state/mail-status-online-filled-active-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-add-outline-14.svg",
+      "sha256": "767b7dc238739513671dce7ffbbcab391ed6a1495a6f9c40193a5dc4dff5f78b",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-add-outline-14.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-align-center-2-outline-24.svg",
+      "sha256": "abdcb4f1f233e329570eaf8159dc04319a18e085ad9b874125c2487cd35fc2d9",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-align-center-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-align-left-2-outline-24.svg",
+      "sha256": "91c80fc28d03529ac257a93f28a3909b3c723407e1a352c33a90d9d7164b3952",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-align-left-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-align-right-2-outline-24.svg",
+      "sha256": "5fd93f2e6edc4248d4662641ae65fd67218c285c9b3edca470b5fd2b4284b45b",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-align-right-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-bg-color-2-outline-24.svg",
+      "sha256": "7b9a139ec88dc7db974067955d4a1e299d584d6f7ba6196abba116ccac4c9365",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-bg-color-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-bold-2-outline-24.svg",
+      "sha256": "0d7219bd8b6d1dd1f453988e9216b35c9f9659131e356b1aa851c5a8337990fd",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-bold-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-bold-filled-24.svg",
+      "sha256": "19732b585ff4df32e33aeece5a1416cd9a9b09cba743638cd920802715f3b932",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-bold-filled-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-caret-down-outline-8x6.svg",
+      "sha256": "9437656c226bdcea2c3f10070859004f4c8778ac44f3dafb26d2be8556a238c5",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-caret-down-outline-8x6.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-clear-format-2-outline-24.svg",
+      "sha256": "0ad18fe4f295504646b4f5795707b9a46acc9a994472d91465fd0f8320362631",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-clear-format-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-clear-format-outline-20.svg",
+      "sha256": "2b8440a1ccc1f06fd0f731e66acf32e702009e858eb951ba4c23e5824f717ed5",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-clear-format-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-code-2-outline-24.svg",
+      "sha256": "f527fc4c129e93bc064517459b8f0a2b16f2282abdbbfcd805f7321a94944ae4",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-code-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-column-delete-1-outline-24.svg",
+      "sha256": "fcbeb88d348ad80de62ffec6330ef506235b48e4ca9a283ef2c0f96c433f1083",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-column-delete-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-column-insert-left-1-outline-24.svg",
+      "sha256": "4b7f84fd69fe217d774619e15453e00eca0904e8de4a9861b08c0bd9ee570722",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-column-insert-left-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-column-insert-right-1-outline-24.svg",
+      "sha256": "8bd41073d720da9aecee73453d05e0e8528384249fc89f4346adbf617f8e9f5b",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-column-insert-right-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-download-document-outline-20.svg",
+      "sha256": "ef02fd36a71477d032ba6100f8ad4c20614c75a1737864499c3b9f0e2de19b20",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-download-document-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-emoji-outline-20.svg",
+      "sha256": "1870cc888d40c1765bcd9d6edd761c0bbddd36d38ccab10b2c7884ee8c33f830",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-emoji-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-file-code-2-outline-24.svg",
+      "sha256": "1ac829c94acd8212bdd5e3ccb20ec51c69d7a59366130d602a3a24ac687a70bc",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-file-code-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-font-color-2-outline-24.svg",
+      "sha256": "9eba410951dcc91af83ae86a4544b63eb8ed0aff0785eeb85c76b7b63758ef48",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-font-color-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-font-color-outline-24.svg",
+      "sha256": "3c735d99b7c8faccbc42599b80ea1af4469bd7e6f23af513cbd4991c8fe45af5",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-font-color-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-font-family-2-outline-24.svg",
+      "sha256": "bdfc610cb4cd053b3ee3c0414d41fc98bb1167342e16c0c8dcd497445597ff71",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-font-family-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-font-size-2-outline-24.svg",
+      "sha256": "ec4b00d6e2c3452f9343516a45c276908b1a24dc85fb2c8ed3135909528d987b",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-font-size-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-format-painter-outline-20.svg",
+      "sha256": "d8063dc571413e0f0bc47ecd0f6a354e5bf6012615663e8cbe0c5470b0863312",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-format-painter-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-heading-2-outline-24.svg",
+      "sha256": "ca1f7172d4a06a5c701ea0defa98eb07c2b90018c227c854e485a16aa30b8f01",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-heading-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-horizontal-rule-2-outline-24.svg",
+      "sha256": "05fa67f19d1c49c449a8a9174e40fccedc62d8a4ec675a2c035430602fcb138b",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-horizontal-rule-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-image-52-outline-24.svg",
+      "sha256": "ff16a7f68443035151af367bd88a9e94fe19a74cb6b00c1cac808ee6a1848476",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-image-52-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-italic-2-outline-24.svg",
+      "sha256": "f71e359340e34801ca6df4d2574aa0e0ee4da7bd6cd09b8b6b74323da57b1204",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-italic-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-italic-outline-24.svg",
+      "sha256": "2309b1824e45c75cf7c04b281f5e9a6796a0c604ec339d9344da8c715849a321",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-italic-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-link-2-outline-24.svg",
+      "sha256": "3427933c5d7a18daefab5b7ed4369196b47714622df7a4a9fbdb6622afd212a2",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-link-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-list-ol-2-outline-24.svg",
+      "sha256": "900b5ab7b956738cf05cae32b7467fd3f962c133bd959731ba56435dd3bb2655",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-list-ol-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-list-ul-2-outline-24.svg",
+      "sha256": "8ddb83af0212744694f9be7550207076020711cfb2f927cee4e0b7851e29f2ca",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-list-ul-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-no-color-2-outline-24.svg",
+      "sha256": "be910916c44042b6eea9af25696608442f51186316ba815b53e2171783b12f95",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-no-color-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-redo-2-outline-24.svg",
+      "sha256": "5e536f761f8e98c14a8689ab6b477951302482066933b2718232eb925cd012a3",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-redo-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-redo-outline-20.svg",
+      "sha256": "dcf867c775e11fe2493269ac14dd57e57ef2487e2cf99e4cdead5a9cb1941fbf",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-redo-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-row-delete-1-outline-24.svg",
+      "sha256": "07146fe9a5ea44f0ac4260e65135b76bf9715d5c335876566292114686d59ec7",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-row-delete-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-row-insert-above-1-outline-24.svg",
+      "sha256": "0ac534bbf8dad337be25170589dcf8a9c3fdbe61ff8310c81629117822199cf5",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-row-insert-above-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-row-insert-below-1-outline-24.svg",
+      "sha256": "f015422744b80ee315cc4c4823721eb4f9609e8674f63606766f8a45db013fbe",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-row-insert-below-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-smart-document-outline-20.svg",
+      "sha256": "7317bdb2920ee5cc4c91bcbf676dd785942d761569507648368a2aade7824e73",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-smart-document-outline-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-strikethrough-2-outline-24.svg",
+      "sha256": "48450adbdd775794cd6681b9a5699c484e57e4b457ecc3fa4ed427919e32a8d8",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-strikethrough-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-table-1-outline-24.svg",
+      "sha256": "8a0106c6e3a80c648ec809f1879dd333670547b3be041b9b613e61ec5a88b618",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-table-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-table-delete-1-outline-24.svg",
+      "sha256": "09f512f9e06a8cc751516b7da19ff221f9e767a0501499625263da8b0d012f44",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-table-delete-1-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-tasks-2-outline-24.svg",
+      "sha256": "d4a5aa8bec9ebc24c7b208d6b7059558512001687e33f502f7346e0b9ec2c100",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-tasks-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-text-height-2-outline-24.svg",
+      "sha256": "3612a632aca080af58160278cd60c8a639108e2c027d8d334320558bfdc6945b",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-text-height-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-underline-2-outline-24.svg",
+      "sha256": "0bcb760cc60beb0ecc4168426ca01acec347c45176da0d9371d8b889a4edb9a9",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-underline-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-underline-outline-24.svg",
+      "sha256": "9b1f6e65ec52cd2876652c15311df3db801a51efe0c3027029f9d602db73059f",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-underline-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-undo-2-outline-24.svg",
+      "sha256": "c14634525c36f1fbd477483d4b125bf2256065a957c6b34082ef362d5ed3869e",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-undo-2-outline-24.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/06-editor-tools/mail-undo-outline-disabled-20.svg",
+      "sha256": "8e1410edce508aa269e2471bcb8716795ab405cb151ae7973b4133a19669d1ac",
+      "sourcePath": "public/icons/email/06-editor-tools/mail-undo-outline-disabled-20.svg",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/color-rules.csv",
+      "sha256": "0928b5e59a026c1eb16cf8aa0771e8720a6ef4d619831d411124b8e5c4cb4024",
+      "sourcePath": "public/icons/email/color-rules.csv",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/icon-catalog.csv",
+      "sha256": "2a30dca56f2e1bd3697dba8a11a74a660df0eebc09294ef30a5ef6c49a0edb66",
+      "sourcePath": "public/icons/email/icon-catalog.csv",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/manifest.json",
+      "sha256": "39eae966ae14157220340074914f971bd2fdb4f7edf7d7d8d5e7c696546ef45d",
+      "sourcePath": "public/icons/email/manifest.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overview-all.png",
+      "sha256": "515186a0cf10852529a3ae072d7fc1e9d7993241cd37677111a2335080ccc845",
+      "sourcePath": "public/icons/email/overview-all.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overview.html",
+      "sha256": "597aa5abfd9475a11de2e98e65a3fa77f92ea47a1f187d9701911a616be2120b",
+      "sourcePath": "public/icons/email/overview.html",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overviews/01-app-bar.png",
+      "sha256": "c6ee7c644eaaec67fc199635dad50e9e280dbb04d38ae2c0d4a3aabb71f23fb5",
+      "sourcePath": "public/icons/email/overviews/01-app-bar.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overviews/02-folders.png",
+      "sha256": "244db93f061afc49f8f32bdd5af5d41b52ffbfc929ba89031f86a76f3611a6ad",
+      "sourcePath": "public/icons/email/overviews/02-folders.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overviews/03-home-view.png",
+      "sha256": "647aab6563c0b52e5307bfbf56a383f09a60525b179bed79fd3f8b467a9b9a0f",
+      "sourcePath": "public/icons/email/overviews/03-home-view.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overviews/04-context-menu.png",
+      "sha256": "c55168659583414463a51a332a38beb36782927fb43ea2873ad03b7f0e5e72ed",
+      "sourcePath": "public/icons/email/overviews/04-context-menu.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overviews/05-selection-state.png",
+      "sha256": "425a0480f5d05fbf9fa2349431f90f2ad7fc6925fd5db767847590e6d9e36c7a",
+      "sourcePath": "public/icons/email/overviews/05-selection-state.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/overviews/06-editor-tools.png",
+      "sha256": "678f7e8456e2c6e5743a03750abfd48f41c3e39fe8e8f1af50f263dd57b8d63c",
+      "sourcePath": "public/icons/email/overviews/06-editor-tools.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/README.md",
+      "sha256": "667f12ce5b374d73c7415167045428ce3acda6372a568656e25602cb9bd043de",
+      "sourcePath": "public/icons/email/README.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/icons/email/validation.json",
+      "sha256": "1427701c9b0a036451f42a34ebc2331d1e31fd8d62057fe3928bef994b422ca4",
+      "sourcePath": "public/icons/email/validation.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/mail/mesh-logo.png",
+      "sha256": "80698d4f0e3c1f49d9a613f26b17999f2b3a35cae0c758e147b50a944771326b",
+      "sourcePath": "public/mail/mesh-logo.png",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/mail/poppins-400.ttf",
+      "sha256": "cdedb1729acac414ed01744a11da7badb86adf13108e7bd3fa161b9323f7fe54",
+      "sourcePath": "public/mail/poppins-400.ttf",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/mail/poppins-500.ttf",
+      "sha256": "fcff04f4bec2b3636f05ed894dc1f9a752c4cb587ee49857ec7a82abaf6ca016",
+      "sourcePath": "public/mail/poppins-500.ttf",
+      "ownership": "upstream"
+    },
+    {
+      "path": "public/mail/poppins-600.ttf",
+      "sha256": "dae40ca7b35fe7501bda2e4140a6860b1db47330be5d3c8ab6971fd83a70e9a5",
+      "sourcePath": "public/mail/poppins-600.ttf",
+      "ownership": "upstream"
+    },
+    {
+      "path": "README.md",
+      "sha256": "e62d089b5c104849230f96f547b07e278deea46f47d800b14acc8d6452f78e55",
+      "sourcePath": "framework/starter/README.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/build-tokens.ts",
+      "sha256": "95752e844cab5c55c3749092ac68a2db49fb8e7d6b51f1637a2b83a06119ffb8",
+      "sourcePath": "scripts/build-tokens.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/check-catalog.ts",
+      "sha256": "de6095e94fe5fb63f0bd6faa2df45fe9ef6621ea45607fd48b8d4d0eee8e6145",
+      "sourcePath": "scripts/check-catalog.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/check-composition.cjs",
+      "sha256": "8c063e28d454dd22a23030db7013edd8c099a66ffa8d7bece4869986e1f8f3fd",
+      "sourcePath": "scripts/check-composition.cjs",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/check-design-baseline.ts",
+      "sha256": "337af4d28299663fccab0b1ea786663f01e0df912e6c9dc14b8050b8fc0f5a2f",
+      "sourcePath": "scripts/check-design-baseline.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/check-starter-im.mjs",
+      "sha256": "d0370fea6dbe18e74a9ca03b3aa0f9e8e7c117c0a53a7992b9b1cb746b7079c6",
+      "sourcePath": "scripts/check-starter-im.mjs",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/composition-metrics.cjs",
+      "sha256": "5c8fe8f3e53d33e54426ad459ed34d92318c8ed85f9eb7672e0dbe8670ae3e29",
+      "sourcePath": "scripts/composition-metrics.cjs",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/upgrade-workbench.mjs",
+      "sha256": "34240af892179163c714efadae76a801fe192498704c5f17ac0a0b522bc719e7",
+      "sourcePath": "scripts/upgrade-workbench.mjs",
+      "ownership": "upstream"
+    },
+    {
+      "path": "scripts/workbench-manifest.mjs",
+      "sha256": "712d33fc5ec475af5bd7ab8f34a425fad7027d99a1024a92d6b9b6c6d856c21e",
+      "sourcePath": "scripts/workbench-manifest.mjs",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/action-status.tsx",
+      "sha256": "71d93de2dbc80e3e89561e4ed59edd577cee5a6cd9951010b307d8efe6429f00",
+      "sourcePath": "src/components/blocks/action-status.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/application-shell.css",
+      "sha256": "4feaedbef344699b6d5f67bbd12c376f8b53ef7b7551a6d96f6bdf75b9cacecb",
+      "sourcePath": "framework/starter/src/components/blocks/application-shell.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/application-shell.tsx",
+      "sha256": "40a297af02621d0b6cfaedecd6fc5d1a49bb0a091801c51845e5ef9741db7aa1",
+      "sourcePath": "framework/starter/src/components/blocks/application-shell.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/async-state.tsx",
+      "sha256": "f6b8f955babbd154c8d572ac8d3a85c4005be31397ff108a52421ea1f65e5311",
+      "sourcePath": "src/components/blocks/async-state.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/attachment-item.tsx",
+      "sha256": "00f1709059f320b55080102f508ccf0489e4b38eadb05859a70ba1824f9767ca",
+      "sourcePath": "src/components/blocks/attachment-item.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/contact-summary.tsx",
+      "sha256": "39232ec8702ef502e71d1b25a6987d37c568f0e215e5013bc2fb8bf10c47d299",
+      "sourcePath": "src/components/blocks/contact-summary.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/credential-field.tsx",
+      "sha256": "848445f694d9614e1f0418bcd64d4c2fac0966a8d6d1378de09d05fbdf436b06",
+      "sourcePath": "src/components/blocks/credential-field.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/email-address-field.tsx",
+      "sha256": "5f9c0049105220e98679908384324298099e1585658e6687f1b44d5187189676",
+      "sourcePath": "src/components/blocks/email-address-field.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/email-completion.ts",
+      "sha256": "b9b9e2c13e80b0c86f29f2f53a9a65db226f9168346c398b2810520691209ff9",
+      "sourcePath": "src/components/blocks/email-completion.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/form-field.tsx",
+      "sha256": "e9a66f7815cfe8ee876b862fa566c23d86a12bd27b295fefa16e1551d906ccd4",
+      "sourcePath": "src/components/blocks/form-field.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/form-patterns.css",
+      "sha256": "6ccd5c320788697e704ff61e3c3c910db2aaa4ad1f7c9f52de8aec627f0dbc7e",
+      "sourcePath": "src/components/blocks/form-patterns.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/im-workspace.css",
+      "sha256": "573287c4df37837a07ac6cf866749b0c54c3b4727e007c09ae0485096505ab69",
+      "sourcePath": "framework/starter/src/components/blocks/im-workspace.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/im-workspace.tsx",
+      "sha256": "2bf94450ead9f0e65070853f100631fea1c638038065935657285f54d7a161f5",
+      "sourcePath": "framework/starter/src/components/blocks/im-workspace.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/list-detail-layout.css",
+      "sha256": "f969468dcb2e72fb28314e5762e89ee6a82a5c16c1457b1b901528203cf3a3ec",
+      "sourcePath": "src/components/blocks/list-detail-layout.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/list-detail-layout.tsx",
+      "sha256": "55e77b62d78e21c26d36b375023aa9970d6a9e298da164d7fe920aef7c160a7f",
+      "sourcePath": "src/components/blocks/list-detail-layout.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/modal-form-layout.tsx",
+      "sha256": "4f54c381a7824f430fd32d89576c510a8d00cc70ebfdc55c634b81482ed540bf",
+      "sourcePath": "src/components/blocks/modal-form-layout.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/people-stack.tsx",
+      "sha256": "5e3254eaa8f899c6eddc5940c3398c1617810d6ecb3b890598f2b2a10cd9e15c",
+      "sourcePath": "src/components/blocks/people-stack.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/schedule-summary.tsx",
+      "sha256": "f900e9ee4be88a9ce5f138cdaa478df1ef2a60ebccc0d0d8289ec382107262d2",
+      "sourcePath": "src/components/blocks/schedule-summary.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/server-settings-fields.tsx",
+      "sha256": "c2b647a69e3cac4db39040bcbe596075e8168cdc3f611bc763a1faec16c3cbf1",
+      "sourcePath": "src/components/blocks/server-settings-fields.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/blocks/work-card.tsx",
+      "sha256": "2b8716f3f1dd42ba1261cbf32c3dbec546f28a1fa5dcb5e1fe5806a9b90cad95",
+      "sourcePath": "src/components/blocks/work-card.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/action-button.css",
+      "sha256": "35ffbaa5859e6ed39fbfefa6735a8b973d85d4b8f5c6094283c20dfed4613f8b",
+      "sourcePath": "src/components/ui/action-button.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/action-button.tsx",
+      "sha256": "b0fda624687be19efb690f09c58b4fe6b9f970969e9ae2994cfdcff113fd1573",
+      "sourcePath": "src/components/ui/action-button.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/alert.tsx",
+      "sha256": "ebd76bea8c891049e0e12e9676aa64695ec9bea980097f40a94b6f36ded92385",
+      "sourcePath": "src/components/ui/alert.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/attachment-count.tsx",
+      "sha256": "a566f07a744598576886a6fb145b5b214ba5f8f5bb6d8830cab3a0f8c80d947d",
+      "sourcePath": "src/components/ui/attachment-count.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/attachment.tsx",
+      "sha256": "10cbeb6fd00d5cb198d6ae916339e0cdf8792671793bfb2b92c6004c097f0f27",
+      "sourcePath": "src/components/ui/attachment.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/avatar.tsx",
+      "sha256": "322fdad1191a3cdac8bf1c3a5775ee34f56d4f294f8129c51e0e21150b3d2e23",
+      "sourcePath": "src/components/ui/avatar.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/badge.tsx",
+      "sha256": "0311bb21a5dc8c1e3d70ffc35cccc375c90e2f08bb0f0dd943dad72c19ed45ff",
+      "sourcePath": "src/components/ui/badge.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/breadcrumb.tsx",
+      "sha256": "0e1a79f56c7cea9a60afde5a29804c22b72c0669d87b0dee3cd282059ccc4b83",
+      "sourcePath": "src/components/ui/breadcrumb.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/bubble.tsx",
+      "sha256": "5a3fcec3c9cdc849c4127ba838d281fd7afffc67d80d8067ce7c39893b6f219b",
+      "sourcePath": "src/components/ui/bubble.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/button.tsx",
+      "sha256": "68e613eb6e6ffe5a215d62f4968e3072e62a39153968eb2beba2367bfc9e76e3",
+      "sourcePath": "src/components/ui/button.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/calendar.tsx",
+      "sha256": "b823246719104278b867cd2215225ed089d58bf49fea2aceddb14f0a37de4a1a",
+      "sourcePath": "src/components/ui/calendar.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/card.tsx",
+      "sha256": "39480d5b63e46554f1cfcedaa91052c848bda5c45d7a5dda80fe91e7be604fb0",
+      "sourcePath": "src/components/ui/card.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/checkbox.tsx",
+      "sha256": "a7068fe7b1840081a0dfdb62a29a39bda24e3cff6752a8788249301a8a79e331",
+      "sourcePath": "src/components/ui/checkbox.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/collapsible.tsx",
+      "sha256": "c6598e5584f4258b5d9fefadbc5ad6a66888ad58729f4b634a0bb2d9c513188b",
+      "sourcePath": "src/components/ui/collapsible.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/combobox.tsx",
+      "sha256": "93f6cba9789d553eb52d25cf150ea1df1ce55298cb8053ccdcb7a1a9022695cd",
+      "sourcePath": "src/components/ui/combobox.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/context-menu.tsx",
+      "sha256": "77452b08fe97ba7d6f55f449161006c9d4325230fbb4e13610aea5b2c27be679",
+      "sourcePath": "src/components/ui/context-menu.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/dialog.tsx",
+      "sha256": "f67f474d46dfb80b94953cd5ef66442b45f7655e9e5d1edcdcb398cc1d56e485",
+      "sourcePath": "src/components/ui/dialog.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/drawer.tsx",
+      "sha256": "2ac125a130c621d2b3967618634a34531f6465d93aa5ec90225b5cd6715165fa",
+      "sourcePath": "src/components/ui/drawer.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/dropdown-menu.tsx",
+      "sha256": "cebcdc8afd3a56124bab18cf88a6d29222e22000481617407f4d31ac5f507421",
+      "sourcePath": "src/components/ui/dropdown-menu.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/field.tsx",
+      "sha256": "321b7060a9c10c2474acd7295c254f31f9348b86115bb032ddb437d2315ffeec",
+      "sourcePath": "src/components/ui/field.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/hover-card.tsx",
+      "sha256": "adf691184dcfa964089e5135a50571bbddcd9341cc3f365e450e6bfdb765ce1c",
+      "sourcePath": "src/components/ui/hover-card.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/input-group.tsx",
+      "sha256": "78ae62a14bd481e01c40841ffe16c241f2e02ad20ca5a23bb56b8ff9d7ee93e0",
+      "sourcePath": "src/components/ui/input-group.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/input.tsx",
+      "sha256": "2fbd859637c66bd189149ac988b86213d8017fc568e8e3b7c5ac3881957db835",
+      "sourcePath": "src/components/ui/input.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/integer-select.css",
+      "sha256": "d9abbac6d126f72cc71a2ba3bab2d4372760abbd8ddf5920e9fd558aacd60e4a",
+      "sourcePath": "src/components/ui/integer-select.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/integer-select.tsx",
+      "sha256": "59758a4fbf6928a1c2c7e798e040d42454f445a0562cd8db80750d57cbda025f",
+      "sourcePath": "src/components/ui/integer-select.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/label.tsx",
+      "sha256": "64bda429adbe28a10667855e101179af49ebf2079fcf4f9e9133498b09c5d23c",
+      "sourcePath": "src/components/ui/label.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/marker.tsx",
+      "sha256": "f333e9c2e2e73b04a102d5f56b718544e83bf48710430342ad3ee65fa47dc9b4",
+      "sourcePath": "src/components/ui/marker.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/message-scroller.tsx",
+      "sha256": "fdb901b75866e770a98ecaf894b2af6cafdc1663b8eb99cbdaaf1f600e61f2aa",
+      "sourcePath": "src/components/ui/message-scroller.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/message.tsx",
+      "sha256": "1bebc71f452054a534e5c3d6c19a7a193d29bc21b371b29bae4f7fa00b51115b",
+      "sourcePath": "src/components/ui/message.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/navigation-menu.tsx",
+      "sha256": "bb93ca3a412fcdc96ff89c4e495442a4b7819d1ee40f62d987e37b843a4ddf5a",
+      "sourcePath": "src/components/ui/navigation-menu.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/pagination.tsx",
+      "sha256": "3171f4cbb101f747e08488195576d1b0c5a8ba28b3fedc558bb38c3301d80eab",
+      "sourcePath": "src/components/ui/pagination.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/popover.tsx",
+      "sha256": "9dcee24509cf269aacfcde3d146291a08d1c2915170ea2beeb1521e51bfa149a",
+      "sourcePath": "src/components/ui/popover.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/product-fields.tsx",
+      "sha256": "635823b507381693c124073ece50f652a1400cc9ed93819cd320350d54b99423",
+      "sourcePath": "src/components/ui/product-fields.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/product-icon.tsx",
+      "sha256": "5e1a66e16f3d2f9fbaa941c0a41ed6b9990926c5c5cc796a589a3c0dabefd3a6",
+      "sourcePath": "src/components/ui/product-icon.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/product-patterns.tsx",
+      "sha256": "ff8b43253457de46a034991ee3e8472e2cb5b97f08b9460f89dca0ff800a34c4",
+      "sourcePath": "src/components/ui/product-patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/progress.tsx",
+      "sha256": "7d3899236b5678949ed682a4a7d337bdd4891369cb5db6705571c680e5a484a8",
+      "sourcePath": "src/components/ui/progress.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/questionnaire.tsx",
+      "sha256": "e5eb260a5b4086e3013161f0ae7dc709a78beeb3c2c78fa81490fd51cc5b4714",
+      "sourcePath": "src/components/ui/questionnaire.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/radio-group.tsx",
+      "sha256": "94a2094c7af1bb086077288ee22701a45d4d27dfd8b85961aad4addf906b1ac4",
+      "sourcePath": "src/components/ui/radio-group.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/recipient-chip.tsx",
+      "sha256": "bce8111a7e4c0727f5ddfeb979676800ab736e1ac56f458fbe4cb079987e4509",
+      "sourcePath": "src/components/ui/recipient-chip.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/resizable.tsx",
+      "sha256": "d3978e5dfb55ca545482178d308a64b841931852f520e28da0d888836e3d6b92",
+      "sourcePath": "src/components/ui/resizable.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/scroll-area.tsx",
+      "sha256": "30030a45ef42e5e9fb717bbe7c0e6761cfde3354dfbf1a2e93cf660e19023a6a",
+      "sourcePath": "src/components/ui/scroll-area.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/search-field.tsx",
+      "sha256": "d3573eba31e633acfbaed4e8ea3925e7b121a9b639fa613f7689e01c40494141",
+      "sourcePath": "src/components/ui/search-field.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/select.tsx",
+      "sha256": "8d9166ebbce8d976e07d4e2002655a118eddf7982f7d7206cb54ea1da6af9d15",
+      "sourcePath": "src/components/ui/select.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/separator.tsx",
+      "sha256": "f9ec8dde26a5c3f2af1c48a0c588c164e350567cddc5c4070cf5ba780e984f26",
+      "sourcePath": "src/components/ui/separator.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/sheet.tsx",
+      "sha256": "add3d4376a1887c8699bc2c880a5906df03f9f7f7916ff2cc33476e45ac8d1c2",
+      "sourcePath": "src/components/ui/sheet.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/sidebar.tsx",
+      "sha256": "dc20d1ce97a963e44ad9cd53c40292d984bab8189dcc32674569272e50a6466b",
+      "sourcePath": "src/components/ui/sidebar.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/skeleton.tsx",
+      "sha256": "5d507cb63a15dd50353c468d2d4e8d624e5b6177f02db0975842926836078794",
+      "sourcePath": "src/components/ui/skeleton.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/slider.tsx",
+      "sha256": "b825a16f61f5b7f70042572f644f00c74bd624c03fece76ecd5754eeb3b2475b",
+      "sourcePath": "src/components/ui/slider.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/sonner.tsx",
+      "sha256": "091afe91ce722dee68a5bb39f412fd9c29a1bcfa31585b7ab5a8192fa10c9584",
+      "sourcePath": "src/components/ui/sonner.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/status-pill.tsx",
+      "sha256": "37ccaf996af887929a3e87d68b9f28148296a95d8139a07c17a87c53a08af86d",
+      "sourcePath": "src/components/ui/status-pill.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/switch.tsx",
+      "sha256": "db5ec1686c7126e4347117c2415865e79c7fba9fdd8641be6a1b4697af011619",
+      "sourcePath": "src/components/ui/switch.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/tabs.tsx",
+      "sha256": "3cb17f78388aa753d544b24237f8f90253bb2f4b5beeeaf7a948b28e61fe3902",
+      "sourcePath": "src/components/ui/tabs.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/textarea.tsx",
+      "sha256": "7c7122fc969c62228c691388aa1fe8b1eafe787ac25305a7a768f77d87d3c567",
+      "sourcePath": "src/components/ui/textarea.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/toggle-group.tsx",
+      "sha256": "f9d2c8102caef32186085a6e60fac79af27e9566f429b3fac85ccbb8f02383c6",
+      "sourcePath": "src/components/ui/toggle-group.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/toggle.tsx",
+      "sha256": "59d930a1c4293a9ff54e4519a77df24d038070d52cdf3cd29f5aebc5bbdf7fc3",
+      "sourcePath": "src/components/ui/toggle.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/components/ui/tooltip.tsx",
+      "sha256": "43c96f27dcffff1eef80470f92c1f57758b0152b026d98a64dc1917899a3fad9",
+      "sourcePath": "src/components/ui/tooltip.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/design-system/baseline-v1.json",
+      "sha256": "6ee86b8255651f1eb885fd132c6242109b245b3604ac2a6c415a9afbf4478274",
+      "sourcePath": "src/design-system/baseline-v1.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/design-system/composition-exceptions.json",
+      "sha256": "563a53f44fa70675c6ec4f4ed2e09941494d459a2f87f2098017ceffdbb244cf",
+      "sourcePath": "src/design-system/composition-exceptions.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/design-system/icon-assets.json",
+      "sha256": "ed80fe885b5f2d4fad61935fa1c7be637777b18ff0f5f0be169a3f4b58528f87",
+      "sourcePath": "src/design-system/icon-assets.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/design-system/icon-catalog.json",
+      "sha256": "888254f6f9590b37c63a6734cedbbd22ce5be16d49a6b4d8c273a2c067aa9715",
+      "sourcePath": "src/design-system/icon-catalog.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/design-system/tokens.json",
+      "sha256": "6cfe5c9f63abc9ed7bef78609c944c37b768c800c9ec69ed7debd9838388313a",
+      "sourcePath": "src/design-system/tokens.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/hooks/use-mobile.ts",
+      "sha256": "738d8e4520edeca7caa2ca56a4923839e30be14a00fc32b5a770f5d5b451a63e",
+      "sourcePath": "src/hooks/use-mobile.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/lib/integer-value.ts",
+      "sha256": "b1c5fdcf41b79168ff847c6466d9622853bd7cc9543236a0b9b5922f2601a81f",
+      "sourcePath": "src/lib/integer-value.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/lib/utils.ts",
+      "sha256": "00708463d307471ed1a3ac36642e9c00a766730d7be61e2351f283a580017ea6",
+      "sourcePath": "src/lib/utils.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/main.tsx",
+      "sha256": "fd7c343ddb7eaf64a5a2b22d87806b0cd8b7cc7e268e1b2a580a53cd199ed28c",
+      "sourcePath": "framework/starter/src/main.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/project.config.ts",
+      "sha256": "984c8c2e2fea10192f1aff2d58e5a9e55f31245e20b7a437735546f612b82e42",
+      "sourcePath": "framework/starter/src/project.config.ts",
+      "ownership": "project"
+    },
+    {
+      "path": "src/project/annotations.ts",
+      "sha256": "69641b730e042e10d138715084b46a5c98f59555b3e12e20cc87827962850e3c",
+      "sourcePath": "framework/starter/src/project/annotations.ts",
+      "ownership": "project"
+    },
+    {
+      "path": "src/project/desktop-apps.ts",
+      "sha256": "d9cb7593ca7ed5a51009bf11cf23c2b90b4f21470e0ddfbc86c9e7df390a28a2",
+      "sourcePath": "framework/starter/src/project/desktop-apps.ts",
+      "ownership": "project"
+    },
+    {
+      "path": "src/project/im-model.ts",
+      "sha256": "d3c77e8eb01d287db933107ddc762fb294aa1941ebc3352520b9ce2393d78bf4",
+      "sourcePath": "framework/starter/src/project/im-model.ts",
+      "ownership": "project"
+    },
+    {
+      "path": "src/project/IMPage.tsx",
+      "sha256": "62997cc00e7acfad6cb402228b69e73bb18965b6e8a7e695af564c8f4a31948c",
+      "sourcePath": "framework/starter/src/project/IMPage.tsx",
+      "ownership": "project"
+    },
+    {
+      "path": "src/project/PrototypeApp.tsx",
+      "sha256": "e577bf1ab5b550d1864225a80ffeb148821e72f68e0eed818c8b4bc46cc12eea",
+      "sourcePath": "framework/starter/src/project/PrototypeApp.tsx",
+      "ownership": "project"
+    },
+    {
+      "path": "src/recipes/FormDialogRecipe.tsx",
+      "sha256": "e07cb27ce31a32a218bfef77ee1b8a8b9056db2ea9bd2ffbe1ff3c5b2b905bd9",
+      "sourcePath": "framework/starter/src/recipes/FormDialogRecipe.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/recipes/ListDetailRecipe.tsx",
+      "sha256": "6a144b22805eff5bf1f179071791593578df6f82f4d8968110c2c5d5332640ec",
+      "sourcePath": "framework/starter/src/recipes/ListDetailRecipe.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/recipes/MessageFeedRecipe.tsx",
+      "sha256": "46290d2df9e010575ec3bdfd0105663e6a5b83023140d0026e35f33769e4f65f",
+      "sourcePath": "framework/starter/src/recipes/MessageFeedRecipe.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/recipes/README.md",
+      "sha256": "abdb813b50c565e2a6e2452f701a4b0ffa7b6398914e759adb39fcf298ebad4b",
+      "sourcePath": "framework/starter/src/recipes/README.md",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/recipes/registry.ts",
+      "sha256": "1c3d685882aa80227493080b1281752bf1366871e126af751910472685881616",
+      "sourcePath": "framework/starter/src/recipes/registry.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/styles/globals.css",
+      "sha256": "e3fa1a602bd9d4389bad8fbc236246c90705f51ec7652e7245e05f8e27df12f3",
+      "sourcePath": "src/styles/globals.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/styles/tokens.css",
+      "sha256": "475e71a27d9bcf6db93bd902194f11ab045f10a73b58dbf1e76c3a049534e26d",
+      "sourcePath": "src/styles/tokens.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/annotations/annotations.css",
+      "sha256": "0adc1c0f6758ed074bc8fc942261b8bd128185942157ec9c93aace9779cfb7eb",
+      "sourcePath": "src/workbench/annotations/annotations.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/annotations/AnnotationWorkspace.tsx",
+      "sha256": "1970e3afcfe4c19a7556c0ceeee24289f0349ee1de8abe5fade9fb51f9f0ffa6",
+      "sourcePath": "src/workbench/annotations/AnnotationWorkspace.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/annotations/types.ts",
+      "sha256": "5213844f2e96dbfa7af8e9e214cde5181a0c0dddf9d599d81fe129a071f62ad8",
+      "sourcePath": "src/workbench/annotations/types.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/annotations/use-annotation-targets.ts",
+      "sha256": "f117b7a45f2dd7a73ddbacd87ddbc019fba9abb251edf062ae7952fe26767adb",
+      "sourcePath": "src/workbench/annotations/use-annotation-targets.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/catalog.json",
+      "sha256": "a52851f60efa29e4b7bc1ac83cae9e9a09f8491fa1bdb8697bbbe1b5466308c9",
+      "sourcePath": "src/workbench/catalog/catalog.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/ComponentCatalog.tsx",
+      "sha256": "d41b2f7f186f8e93665248e07976597d50181cda641292ca2cf5c36368ece530",
+      "sourcePath": "src/workbench/catalog/ComponentCatalog.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/foundation.tsx",
+      "sha256": "8c15772ca3b1cc0c41265a4c4256e0f410579099b914a02a6680c22556121e3f",
+      "sourcePath": "framework/starter/src/workbench/catalog/demos/foundation.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-action-button.tsx",
+      "sha256": "0a0a39ec07a512f4cbf5b8f15bef97033c63c8dd80977ca3a07c72896d737609",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-action-status.tsx",
+      "sha256": "42837af70311dbffc0a295b44cb091800f9da45f3ead4e55e3409a402b4ef12b",
+      "sourcePath": "src/workbench/catalog/demos/blocks.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-alert.tsx",
+      "sha256": "04738e5c02ea87bcb95cc103524ba098cb03ba467e2c781f693ea257b0a04c7d",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-async-state.tsx",
+      "sha256": "d45b89b7b62349611170f1f86f75770cefd114788d3f7e982acbdc2e1525e147",
+      "sourcePath": "src/workbench/catalog/demos/blocks.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-attachment-count.tsx",
+      "sha256": "62571bab33349d8379e38b9d61c7ebab9b82a43da1508cc9d2f1db14e5336c42",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-attachment-item.tsx",
+      "sha256": "dafa6cfab5e2787ca889d5420267dc0cdc46be28d452f2407231f0acfd0c7880",
+      "sourcePath": "src/workbench/catalog/demos/blocks.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-attachment.tsx",
+      "sha256": "8743a15fa05f69e483405eabf658bc45045ce169954522bb128cb745ef587a06",
+      "sourcePath": "src/workbench/catalog/demos/communication.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-avatar.tsx",
+      "sha256": "ba7117f06da20deacdc1e93bc46a337bd608762663597d1186abcde51ee4c9d6",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-badge.tsx",
+      "sha256": "0c7f8ededdf1980f6e7bb78b4ddfa25d708344c6c34fd181217f70180e114d73",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-breadcrumb.tsx",
+      "sha256": "d30c73cd3521fbdb74b2a46354a028319ad185906f4a64fc80728c8255eddef4",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-bubble.tsx",
+      "sha256": "2fa126e713440bb8887587662a9ad7fef26b9033b4608ea561ee2fa86ce6c525",
+      "sourcePath": "src/workbench/catalog/demos/communication.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-button.tsx",
+      "sha256": "e7b47db2c7ba67fd03c5e22ba1abbd2f6546e774c9484196bb03d2f200ea6890",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-calendar.tsx",
+      "sha256": "ab15e9d25f4e067a5df95183aec71fdacb6a30a86a28b5697e7e02903162409f",
+      "sourcePath": "src/workbench/catalog/demos/advanced-forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-card.tsx",
+      "sha256": "ca2f26b9efaf94491c77086d21d1ab3d867e4c4c5e9d86bd7d1661ac0cb87d72",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-checkbox.tsx",
+      "sha256": "fa4a88e5cb145a6b5a523a674a6c586ef808c933e88274a8a5a19346c1a8f59b",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-collapsible.tsx",
+      "sha256": "abc5f31744a4efba1b8ccab71837e92ad5c73258cb247332de6ef8f7d524f465",
+      "sourcePath": "src/workbench/catalog/demos/overlays.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-combobox.tsx",
+      "sha256": "ace1de744dd69450cc3c33bf05d18a421c4786221a453ab44caba09f15dad841",
+      "sourcePath": "src/workbench/catalog/demos/advanced-forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-contact-summary.tsx",
+      "sha256": "cd863e9f60b8d54428d17b93aa7476425f1e9970d1fc00f9e279c43407924e1f",
+      "sourcePath": "src/workbench/catalog/demos/blocks.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-context-menu.tsx",
+      "sha256": "d727f77ecdc5496b16862b5d46d495a21bfad03dc79705d696fffa6288a98e59",
+      "sourcePath": "src/workbench/catalog/demos/mail.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-credential-field.tsx",
+      "sha256": "812844e908c436ea06f7cd48f774df0165757657f7e294cbc68534674287a37b",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-dialog.tsx",
+      "sha256": "c1f2d9d2b075630251aea8630c3a7152a64b96ac8215474587fbb473f87804fe",
+      "sourcePath": "src/workbench/catalog/demos/overlays.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-drawer.tsx",
+      "sha256": "714a3a1c3174e40b1e1eaf14e5724dff39f326eb0bdd679712c5342e7f2312b3",
+      "sourcePath": "src/workbench/catalog/demos/overlay-primitives.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-dropdown-menu.tsx",
+      "sha256": "f2e5299def08370dc8080e5b41ce4041a369b1ccbfea31682e95dc173c4199ee",
+      "sourcePath": "src/workbench/catalog/demos/overlays.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-email-address-field.tsx",
+      "sha256": "abf199ae953cb40937baa992367fcbe3f9e0dc5b427f597a7dd7bf86ad3a86a4",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-field.tsx",
+      "sha256": "88d5af5100d187016fd64508aec2cb396bf05d772c7d85f32e2f5c8b2d4b0c45",
+      "sourcePath": "src/workbench/catalog/demos/field.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-form-field.tsx",
+      "sha256": "145601a746a9719d2bc88adeb41859420471c9ffda496191d8b0f9db85f18ec0",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-hover-card.tsx",
+      "sha256": "b163286091fc296fe60336f3e7812c7ec5a84f6cae9e488594b29d03e2ad1efc",
+      "sourcePath": "src/workbench/catalog/demos/overlay-primitives.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-input-group.tsx",
+      "sha256": "63d48d612c8b49bd7caaf9ad17c7ebd7aa59ac38733138362e36657b3858c5ce",
+      "sourcePath": "src/workbench/catalog/demos/advanced-forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-input.tsx",
+      "sha256": "7c6e62979a0e263175484c39b8cdb1542f3840c6d94f0be567eeb767cb47ec68",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-integer-select.tsx",
+      "sha256": "723b661fe10b8a4aa25f433b2d602844adfd64c6dc3e9067bc5769b1a65ab149",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-label.tsx",
+      "sha256": "b2b1961a5e558ea24076d26abf07911f3c7e415b3060bbf7eaaa1b495328a799",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-list-detail-layout.tsx",
+      "sha256": "35fc31cf35a33cd5431117d5329f8c51e174acd9bc788439972b0e5e9c11630e",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-marker.tsx",
+      "sha256": "0b1d9fca33f5b332cc9fdf5f2b550c70c56956ad877c45eb5b6a82490826686b",
+      "sourcePath": "src/workbench/catalog/demos/communication.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-message-scroller.tsx",
+      "sha256": "4079a7c1d37e900e61dd77d2d4183addde4fea83131f03bb9d548eb247d0a7fe",
+      "sourcePath": "src/workbench/catalog/demos/communication.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-message.tsx",
+      "sha256": "71295dd8a7d820ce441dbea9ebcaad9ab686a4c2a8c5f0757ae255527aa56e94",
+      "sourcePath": "src/workbench/catalog/demos/communication.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-modal-form-layout.tsx",
+      "sha256": "866386d891b57edc6891db8275741a585c98e845a3d59a7307e86c397e4d8ea2",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-navigation-menu.tsx",
+      "sha256": "195c3f3bc44f25446f6e5cf7fd987b98f6d0f869ebf79c377ad8be81a5beb236",
+      "sourcePath": "src/workbench/catalog/demos/layout.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-pagination.tsx",
+      "sha256": "0094be27827112fd9ae392da304e7320016441da1ace2beb37b4cf496abea19f",
+      "sourcePath": "src/workbench/catalog/demos/layout.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-people-stack.tsx",
+      "sha256": "0c51a2fe6f7ede5463b5d5dc94a363ec8561f2085136b2322742db1a51227b0b",
+      "sourcePath": "src/workbench/catalog/demos/blocks.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-popover.tsx",
+      "sha256": "c9a60da3004c94ec1c456d5225757d48c1832c48333e855ac1bfe8bd456cca85",
+      "sourcePath": "src/workbench/catalog/demos/overlay-primitives.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-product-fields.tsx",
+      "sha256": "315dbc484a4d9e5da4d4bf207de49e6aab1c89972606a399bfe8721cbae72423",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-product-icon.tsx",
+      "sha256": "63ee6cc24d3b69a08b06ff3aa1c8d093bc12192b2da2eb63b3f3a428dbf75536",
+      "sourcePath": "src/workbench/catalog/demos/product-icons.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-product-patterns.tsx",
+      "sha256": "d506f2f541883893c51ff00f1b81b4692999a7d49593049fc3a7601cf184f7d8",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-progress.tsx",
+      "sha256": "72f7f28459224231b8ef4ba188d179604a2f0d3b4d47be84e3e5ca6f623ed908",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-questionnaire.tsx",
+      "sha256": "33b444a7ed39910af1d32a868dbd9ac486e7575bee1f900afa5f3274979d2c17",
+      "sourcePath": "src/workbench/catalog/demos/advanced-forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-radio-group.tsx",
+      "sha256": "547c984cf05b7d80aa6b01259c1c0fc8d363555ea0d87922af8dfb499535c5df",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-recipient-chip.tsx",
+      "sha256": "bdb57d75037afea937e0acfb0d04554ea47857d68482f50240ddcb2d72a1669a",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-resizable.tsx",
+      "sha256": "5af329a565dba89cee57cbab4ba6ba6cdee756fd0cc1391eb7d9c73ce42e811d",
+      "sourcePath": "src/workbench/catalog/demos/layout.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-schedule-summary.tsx",
+      "sha256": "92cc8c21714cc43c3b898c7ad2303a258d783fa5eeedd901134606d67fa881cd",
+      "sourcePath": "src/workbench/catalog/demos/blocks.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-scroll-area.tsx",
+      "sha256": "368c7e50eaa8b71f52831b44fc4b8082b6527752de2ed2a336898a79b230b36e",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-search-field.tsx",
+      "sha256": "749138c6e49f2201c2687eed0e7f4daade211df6142830871baf7bc3f9b9c1a2",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-select.tsx",
+      "sha256": "e791bbc8c0ca545d74acf9623ba782cfddcd999999be00ef18752a17223f76eb",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-separator.tsx",
+      "sha256": "9e83072a82a7f6e784ff02df6b6260042f08e454c96a01580ff187d971439a4e",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-server-settings-fields.tsx",
+      "sha256": "83c940ace05c2fa042d0377630d64234662094d1978546779c22d27eb0f8f677",
+      "sourcePath": "src/workbench/catalog/demos/patterns.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-sheet.tsx",
+      "sha256": "fab3db93360306cea491348ab0871040f6af54cc5e22deb4df1f2d680e40c53b",
+      "sourcePath": "src/workbench/catalog/demos/overlay-primitives.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-sidebar.tsx",
+      "sha256": "70c3163457c644326615779744830b0fed2a9d4a80e7aaecf0d8a0a272b3461d",
+      "sourcePath": "src/workbench/catalog/demos/layout.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-skeleton.tsx",
+      "sha256": "abc149773a3a3de8be0b17da349ae8294dd2ab76b94066f37953b2633bd2a788",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-slider.tsx",
+      "sha256": "a4dcf50ad282926d5d19ba286828b91a6f86e8dc8f7b3d3b47895e3d0b10f0b1",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-sonner.tsx",
+      "sha256": "018ebfd2a393d3087053cbbb351efad1107f89aa4be867c524699806002367fa",
+      "sourcePath": "src/workbench/catalog/demos/overlay-primitives.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-status-pill.tsx",
+      "sha256": "585d17a784ba7acc170fd96dbf53b667962b9c1a87dce833df6e0139c2e80fbb",
+      "sourcePath": "src/workbench/catalog/demos/basic.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-switch.tsx",
+      "sha256": "c2e479d3b4154e5de4f5298d2ae641c0eefa62bc7ea4b236d59d3434198b5f0e",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-tabs.tsx",
+      "sha256": "463e0db9c0d781ef46e1d9cbe8920ec7cd090c6711702ba483e034db69dda7db",
+      "sourcePath": "src/workbench/catalog/demos/overlays.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-textarea.tsx",
+      "sha256": "74ff0e5af0850cdccff3b559d13026696fbbaab438c30e00493077dd5c97558e",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-toggle-group.tsx",
+      "sha256": "6ed32266a5fe6393f3c22ae70dab323568d201db11e8a6b919e0814da82e75d2",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-toggle.tsx",
+      "sha256": "e49fe1a65237a7105f7d7c407821763bd15e1e5f3721bcd0d34574b274abb55e",
+      "sourcePath": "src/workbench/catalog/demos/forms.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-tooltip.tsx",
+      "sha256": "3deb337cef92308759dc21adcbc1dba8eeb9b21b29a295f9d1106a990071edb2",
+      "sourcePath": "src/workbench/catalog/demos/overlay-primitives.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/demos/portable-work-card.tsx",
+      "sha256": "2923d0c21d7c35c0d76af43f5b198bff6f13df2d24f4d22ef9c66822b66b7cb3",
+      "sourcePath": "src/workbench/catalog/demos/blocks.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/PreviewPage.tsx",
+      "sha256": "c340b2e2ded66c0536e017d2d879235169e5c9a2bfafcff7a363adc42464d385",
+      "sourcePath": "src/workbench/catalog/PreviewPage.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/registry.ts",
+      "sha256": "3364b1ae2e7f7f86d839e8168697e725fe413db55efb9a26ba0516c435d9d2b3",
+      "sourcePath": "src/workbench/catalog/registry.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/catalog/source.ts",
+      "sha256": "8a4f59b3ccbbc92d386dab786eaf6e140c92307c08942cfc8f5da58be79379eb",
+      "sourcePath": "src/workbench/catalog/source.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/DesignSystem.tsx",
+      "sha256": "afb9776d6a58618af022e5adbbf10b3f02ee26a4f7cd3c72b8128aace1c69df9",
+      "sourcePath": "src/workbench/DesignSystem.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/desktop-prototype-stage.css",
+      "sha256": "4ad877fa363d00d7c9dc80db94611e5a70cd6a0c439bd7a4958d8d1ee564435d",
+      "sourcePath": "src/workbench/desktop-prototype-stage.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/PrototypeStage.tsx",
+      "sha256": "3d684315826092cc0ae1c604292524997050a47f209ced7e9c6b01f078bb6eef",
+      "sourcePath": "src/workbench/DesktopPrototypeStage.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/starter.css",
+      "sha256": "65b6206d71e2d5899701935ce62bb8f574b7fb7a2850876ce1e7f288da40b9f9",
+      "sourcePath": "framework/starter/src/workbench/starter.css",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/StarterApp.tsx",
+      "sha256": "c987f58e45abfd8f2e9d3c8f0e406d5dafdc6984fe825f98764732a0b485aa44",
+      "sourcePath": "framework/starter/src/workbench/StarterApp.tsx",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/use-prototype-pan.ts",
+      "sha256": "ceadd7994eacdc100abccdc6420a2e5178fa4d5e36fadecda041c0ec81993cfd",
+      "sourcePath": "src/workbench/use-prototype-pan.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "src/workbench/workspace-data.ts",
+      "sha256": "adf059a91dc88b50d292762cfe6f31317f30a5bd727bf2bc3b60a2bb7f1866c5",
+      "sourcePath": "src/workbench/workspace-data.ts",
+      "ownership": "upstream"
+    },
+    {
+      "path": "tsconfig.json",
+      "sha256": "5754262f0d6ede14a24fc933caeae8565a146b213540c54bbc3f7593f7c96dcd",
+      "sourcePath": "tsconfig.json",
+      "ownership": "upstream"
+    },
+    {
+      "path": "vite.config.ts",
+      "sha256": "dda6771bd8f0e530babf097c8b4669c81ef92ad9087b555cf41fe9d2bc9d46ca",
+      "sourcePath": "vite.config.ts",
+      "ownership": "upstream"
+    }
+  ]
+}

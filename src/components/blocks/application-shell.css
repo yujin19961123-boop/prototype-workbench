@@ -1,0 +1,10 @@
+.foundation-shell{height:100dvh;display:grid;grid-template-columns:68px minmax(0,1fr);grid-template-rows:60px minmax(0,1fr);overflow:hidden;background:var(--mail-surface-shell);color:var(--foreground);font-family:var(--font-ui)}
+.foundation-windowbar{grid-column:1/-1;display:flex;align-items:center;gap:var(--space-3);padding:0 var(--space-6);min-width:0}
+.foundation-windowbar>img{max-height:32px;max-width:172px;object-fit:contain}
+.foundation-windowbar>strong{font-size:var(--type-section-title-size);line-height:var(--type-section-title-line);font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.foundation-windowbar>[data-prototype-window-actions]{display:flex;align-items:center;gap:var(--space-2);margin-left:auto}
+.foundation-app-rail{display:flex;flex-direction:column;align-items:center;justify-content:space-between;padding:var(--space-6) 0 var(--space-4);min-height:0;overflow:auto;scrollbar-width:none}
+.foundation-apps,.foundation-rail-bottom{display:flex;flex-direction:column;align-items:center;gap:var(--space-4)}
+.foundation-app-rail .foundation-app-button{height:48px;width:48px;border-radius:var(--curve-full);color:var(--muted-foreground);border:1px solid transparent}
+.foundation-app-rail .foundation-app-button[data-active="true"]{background:var(--selection);border-color:var(--primary);color:var(--primary)}
+.foundation-app-content{min-width:0;min-height:0;overflow:hidden;background:var(--card);border:1px solid var(--border);border-right:0;border-bottom:0;border-top-left-radius:var(--curve-lg)}
